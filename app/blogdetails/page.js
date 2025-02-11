@@ -154,6 +154,7 @@ function BlogDetails() {
               <FaEnvelope className="sheicon" />
             </div>
           </EmailShareButton>
+          
         </div>
       </div>
     </div>
