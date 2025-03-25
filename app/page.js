@@ -127,7 +127,7 @@ const HomePage = ({props}) => {
               alt="whatsApp-kusheldigi"
               title="whatsApp-kusheldigi"
               width={50}
-              height={50}
+              height={50} 
             />
           </button>
           <button onClick={callHandler}>
