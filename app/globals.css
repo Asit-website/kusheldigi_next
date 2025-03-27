@@ -23781,7 +23781,8 @@ color: #0E151D;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 950px
+  padding: 0px 0px 0px 40px;
+  /* max-width: 850px!important; */
 }
 
 .s10top h3 {
@@ -23805,7 +23806,7 @@ color: #0E151D;
 .s10items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 70px;
   gap: 50px

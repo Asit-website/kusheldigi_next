@@ -171,7 +171,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <div className="carousel-item">
                 <div className="left-carousel-item">
                 
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880369/image_2_jkmhgr.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880370/image_cyhgfn.png"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
