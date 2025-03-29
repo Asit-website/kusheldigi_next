@@ -30,7 +30,7 @@ margin: 120px 0px 0px 0px;
 }
 .hero-containerMa {
   display: flex;
-  /* max-width: 1340px; */
+  max-width: 1387px;  
   width: 100%;
   align-items: center;
   gap: 5rem;

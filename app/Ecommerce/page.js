@@ -25,15 +25,24 @@ const Page = () => {
         <Banner2/>
         <Banner3/>
         <Banner4/>
-        <Banner6/>
+        <HomeFlax/> 
         <Banner9/>
-        <Banner8/>
+        <HomeCardSection/>
         <Banner7/>
-        <Banner10/>
-        <Banner11/>
         <Banner5/>
-        <HomeFlax/>
-        {/* <HomeCardSection/> */}
+        <Banner8/>
+        <Banner11/>
+        <Banner10/>
+        <Banner6/>
+       
+
+       
+   
+      
+      
+      
+        {/* <HomeFlax/> */}
+     
         <UseAccorrodian/>
         <HomeForm/>
         <Footer/>
