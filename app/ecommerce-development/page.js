@@ -117,7 +117,7 @@ const USA = ({ notify }) => {
           name="description"
           content="KushelDigi Solutions take your digital aspirations and make them come true! We are your success partners rather than just an e-commerce development company."
         />
-        <link rel="canonical" href="https://www.kusheldigi.com/ecommerce-development" />
+        <link rel="canonical" href="https://www.kusheldigi.com/Ecommerce" />
       {/* </Helmet> */}
       <div className="ser-main">
         <div className="ser121 ecommerce1">

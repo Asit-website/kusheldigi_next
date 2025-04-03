@@ -2,21 +2,21 @@
 
 /* Hero Section */
 .Mainhero-sectionss {
-margin: 120px 0px 0px 0px;
+/* margin: 120px 0px 0px 0px; */
   background-color: #252B35;
   color: white;
   /* padding: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
+  /* height: 700px; */
   background: linear-gradient(to right , #e4edf3 50%,#aec8db 50%);
 
 }
 .hero-containerMa{
   padding: 20px 60px;
   max-width: 1720px;
-  
+  margin: auto;
 }
 .hero-containerMaSub{
  
@@ -63,6 +63,7 @@ margin: 120px 0px 0px 0px;
 }
 
 .hero-descriptionCom {
+  padding: 25px 0px 0px 0px;
   max-width: 600px;
   font-size: 16px;
   color: #222;

@@ -19,7 +19,7 @@ const data = [
     title: "E-commerce Development",
     para: "Kushel Digi builds robust, scalable e-commerce platforms according to your business needs.",
     showImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013536/ecodev_wssta3.webp',
-    link: "/ecommerce-development",
+    link: "/Ecommerce",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767148/Group_1171275912_la8mm4.png",

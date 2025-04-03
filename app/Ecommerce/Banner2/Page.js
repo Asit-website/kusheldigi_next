@@ -36,9 +36,10 @@ const Banner2 = () => {
       </p>
       <div className="buttonsssBan2">
         <a href='#form-section' className="primary-btnssBan2">Book a Call <FaArrowRight/> </a>
+        <Link href="/contact-us">
         <button className="secondary-btnssBan2">
-          <Link href="/contact-us">
-          Request An Audit </Link></button>
+         
+          Request An Audit </button>  </Link>
       </div>
     </div>
   </div>

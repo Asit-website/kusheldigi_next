@@ -369,7 +369,7 @@ const Service = () => {
                       ,particularly within the dynamic economies of developed
                       nations like USA.
                     </p>
-                 <Link href="ecommerce-development">  <h3>Read More</h3></Link> 
+                 <Link href="/Ecommerce">  <h3>Read More</h3></Link> 
                     <div className="underline1">
                       <hr />
                     </div>

@@ -41,7 +41,7 @@ const ServiceCommon = () => {
                                 <div className="nat_heading">
                                     <h3>E-commerce Solutions</h3>
                                     <p>Teams at fast-growing companies use Superside to get quality graphic design done at scale. </p>
-                                   <Link href="/ecommerce-development"><span>Read More</span></Link>
+                                   <Link href="/Ecommerce"><span>Read More</span></Link>
                                 </div>
                             </div>
                         </SplideSlide>

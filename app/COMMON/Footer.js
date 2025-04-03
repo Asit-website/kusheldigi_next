@@ -34,7 +34,7 @@ const Footer = () => {
                   <h5>Services</h5>
                   <div className="foot10 flex flex-col">
                     <Link href="/mobile-application-development">Mobile App Development</Link>
-                    <Link href="/ecommerce-development">E-commerce Development</Link>
+                    <Link href="/Ecommerce">E-commerce Development</Link>
                     <Link href="/web-development">Website Development</Link>
                     <Link href="/digital-marketing-agency">Digital Marketing</Link>
                     {/* <Link to="/">Web Application Development</Link> */}
@@ -139,13 +139,13 @@ const Footer = () => {
             <div className="footer2Imagelat">
             <img width="130" height="111" loading="lazy" 
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446906/top-E-3_vycg4a.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" 
+            
             alt="logo"></img>
             </div>
             <div className="footer2Image">
             <img width="120" height="129" loading="lazy" 
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446909/top-e-4_vx3hne.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" 
+            
             alt="logo"></img>
             </div>
             <div className="footer2Image">
