@@ -20,11 +20,12 @@
   .eshka-container h2 {
     font-size: 30px;
     font-weight: 450;
+    text-align: center;
     width: 100%;
     max-width: 688px;
     display: inline-block;
     color: #1c1e21;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
   }
   
   /* Features Row */
@@ -46,6 +47,7 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.3s ease;
     display: flex;
+    gap: 30px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -87,6 +89,7 @@
   /* CTA Button */
   .eshka-cta-wrapper {
     margin-top: 20px;
+    text-align: center;
   }
   
   .eshka-start-button {

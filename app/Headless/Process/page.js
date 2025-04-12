@@ -1,80 +1,118 @@
 "use client"
-import React from "react";
+import React, { useRef, useEffect, useState } from 'react';
 import "./Process.css";
 
-const steps = [
-  {
-    number: "1",
-    title: "Discovery and Strategy",
-    description:
-      "We kickstart every project with a thorough discovery phase. We delve into your business goals, target audience, and unique requirements. With a solid understanding in hand, we devise a comprehensive strategy tailored to your needs.",
-  },
-  {
-    number: "2",
-    title: "Architecture and Planning",
-    description:
-      "Our experts architect a robust headless commerce solution that aligns with your business objectives. We plan every aspect, from selecting the right technology stack to outlining the user experience.",
-  },
-  {
-    number: "3",
-    title: "Development and Integration",
-    description:
-      "With a solid plan in place, our skilled development team gets to work. We create the foundation of your headless commerce system, integrating all necessary components seamlessly.",
-  },
-  {
-    number: "4",
-    title: "Customization and Design",
-    description:
-      "We craft a visually appealing and user-friendly design that reflects your brand identity. Customization is key, and we ensure your online store stands out while providing a seamless shopping experience.",
-  },
-  {
-    number: "5",
-    title: "Testing and Quality Assurance",
-    description:
-      "Before launching, we rigorously test every component of your headless commerce solution. Our quality assurance team ensures that your website is bug-free, performs optimally, and is secure.",
-  },
-  {
-    number: "6",
-    title: "Deployment and Optimization",
-    description:
-      "We deploy your headless commerce platform, and our work doesn't end there. We continuously monitor performance, make necessary optimizations, and stay ready to adapt to changes in your business landscape.",
-  },
-  {
-    number: "7",
-    title: "Training and Support",
-    description:
-      "We provide training to ensure your team can manage and update your headless commerce website effectively. Our support is ongoing, and we're always here to assist with any questions or issues.",
-  },
-  {
-    number: "8",
-    title: "Growth and Scaling",
-    description:
-      "As your business grows, we're prepared to scale your headless commerce solution to accommodate increased traffic and new features. We're your partners for long-term success.",
-  },
 
-];
+const Progress = () => {
+  const [inView, setInView] = useState(false);
+  const progressRef = useRef(null);
+  useEffect(() => {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            if (entry.isIntersecting) {
+              setInView(true);
+              observer.disconnect();
+            }
+          },
+          {
+            threshold: 0.5,
+          }
+        );
+      
+        if (progressRef.current) {
+          observer.observe(progressRef.current);
+        }
+      
+        return () => {
+          observer.disconnect();
+        };
+      }, []);
 
-const Process = () => {
-  return (
-    <section className="process-section">
-      <h2 className="process-title">Our Process</h2>
-      <div className="process-container">
-        <div className="process-line"></div>
-        {steps.map((step, index) => (
-          <div
-            key={index}
-            className={`process-step ${index % 2 === 0 ? "left" : "right"}`}
-          >
-            <div className="step-number">{step.number}</div>
-            <div className="step-box">
-              <h3 className="step-title">{step.title}</h3>
-              <p className="step-description">{step.description}</p>
+    return (
+        <div className='headless-progress-outer-container'>
+            <div className="headless-progress-inner-container">
+                <h2 className='headless-progress-heading secondary-heading'>
+                    Our BigCommerce Development Process
+                </h2>
+                <h3 className='headless-progress-sm-heading primary-heading'>
+                    Kushel Digi believes in employing latest and advanced global process to deliver projects best suited with your business needs.
+                </h3>
+
+                <div ref={progressRef}  className="headless-phases-wrapper">
+                    {
+                      inView && (
+                        <div className="headless-phases">
+                        <div id='headless-phase1' className="headless-process-button"></div>
+                        <div id='headless-phase1Name'>
+                            <span>01</span>
+                            <span className='headless-procBCom'>Discovery and <br></br> Strategy</span>
+                        </div>
+
+                        <div id='headless-phase2' className="headless-process-button"></div>
+                        <div id='headless-phase2Name'>
+                            <span>02</span>
+                            <span className='headless-procBCom'>Architecture and <br></br>Planning</span>
+                        </div>
+
+                        <div id='headless-phase3' className="headless-process-button"></div>
+                        <div id='headless-phase3Name'>
+                            <span>03</span>
+                            <span className='headless-procBCom'>Development and Integration</span>
+                        </div>
+
+                        <div id='headless-phase4' className="headless-process-button"></div>
+                        <div id='headless-phase4Name'>
+                            <span>04</span>
+                            <span className='headless-procBCom'>Customization and Design</span>
+                        </div>
+
+                        <div id='headless-phase5' className="headless-process-button"></div>
+                        <div id='headless-phase5Name'>
+                            <span>05</span>
+                            <span className='headless-procBCom'>Testing and Quality <br></br>Assurance</span>
+                        </div>
+
+                        <div id='headless-phase6' className="headless-process-button"></div>
+                        <div id='headless-phase6Name'>
+                            <span>06</span>
+                            <span className='headless-procBCom'>Deployment and Optimization</span>
+                        </div>
+
+                        <div id='headless-phase7' className="headless-process-button"></div>
+                        <div id='headless-phase7Name'>
+                            <span>07</span>
+                            <span className='headless-procBCom'>Training and Support</span>
+                        </div>
+
+                        <div id='headless-phase8' className="headless-process-button"></div>
+                        <div id='headless-phase8Name'>
+                            <span>08</span>
+                            <span className='headless-procBCom'>Growth and Scaling</span>
+                        </div>
+
+                        {/* <div id='phase9' className="process-button"></div>
+                        <div id='phase9Name'>
+                            <span className='procBCom'>User Acceptance Testing</span>
+                        </div>
+
+                        <div id='phase10' className="process-button"></div>
+                        <div id='phase10Name'>
+                            <span>06</span>
+                            <span className='procBCom'>Final Touches</span>
+                        </div>
+
+                        <div id='phase11' className="process-button"></div>
+                        <div id='phase11Name'>
+                            <span>07</span>
+                            <span className='procBCom'>Deployment</span>
+                        </div> */}
+                    </div>
+                      )
+                    }
+                </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
+        </div>
+    );
 };
 
-export default Process;
+export default Progress;

@@ -1,4 +1,3 @@
-"use client"
 import React, { useState } from "react";
 import "./Pwa.css";
 
@@ -35,6 +34,7 @@ export default function HeadlessPWASection() {
 
   return (
     <section className="headless-pwa">
+        <div className="human-pwa">
       <div className="headless-pwa-title">
         What <span className="headless-pwa-bold">headless</span> PWAs stand for
       </div>
@@ -64,6 +64,7 @@ export default function HeadlessPWASection() {
         <div className="headless-pwa-image-section">
           <img src={image} alt={activeTab + " Preview"} />
         </div>
+      </div>
       </div>
     </section>
   );

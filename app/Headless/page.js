@@ -17,26 +17,47 @@ import Sec16 from './Sec16/page'
 import Sec14 from './Sec14/page'
 import Process from './Process/page'
 import Last from './Last/page'
+import Navbar from '../COMMON/Navbar'
+import HomeForm from '../components/Home/HomeForm'
+import Footer from '../COMMON/Footer'
+import Banner9 from '../ecommerce-development/Banner9/page'
+import CallAction from '../magento/CallAction/CallAction'
+import Action3 from '../Headless/Action3/page'
+// import Action3 from '../Headless/Action3/page'
 const page = () => {
   return (
     <div>
+ <Navbar/>     
 <Menu/>
+<Upgrad/>
 <More/>
-<Ben/>
+{/* <Ben/> */}
+<Last/>
+<Banner9/>
+<Action3/>
+
+{/* <Action3/> */}
+{/* <CallAction/> */}
+<Cycle/>
+<Process/>
 <Omi/>
-<Store/>
-<Pwa/>
-<Wining/>
 <Online/>
 <Development/>
-<Upgrad/>
-{/* <Cycle/> */}
-<Wifi/>
 <Diff/>
-<Sec16/>
+{/* <Store/> */}
+<Pwa/>
+<Wining/>
+
+
+
+<Wifi/>
+
+{/* <Sec16/> */}
 <Sec14/>
-<Process/>
-<Last/>
+
+
+<HomeForm/>
+<Footer/>
     </div>
   )
 }

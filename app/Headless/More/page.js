@@ -44,32 +44,36 @@ const CorePrinciples = () => {
   };
 
   return (
-    <section className="core-section">
-      <div className="content-wrapper">
-        <div className="text-content">
-          <h2>Why Headless Commerce?</h2>
-          <p>Headless commerce is the future of digital retail. By decoupling the frontend from the backend.</p>
-        
-        </div>
-        <div className="principles-list">
-          {principlesData.map((principle) => (
-            <div
-              key={principle.id}
-              className={`principle-box ${activeId === principle.id ? "active" : ""}`}
-              onClick={() => togglePrinciple(principle.id)}
-            >
-              <div className="number-circle">{principle.id}</div>
-              <div className="principle-text">
-                <h3>{principle.title}</h3>
-                <div className={`principle-content-wrapper ${activeId === principle.id ? "expanded" : "collapsed"}`}>
-                  <p className="principle-content">{principle.content}</p>
-                </div>
+    <section className="core-section" id="core-principles">
+    <div className="content-wrapper">
+      <div className="text-content" data-aos="fade-right">
+        <h2>
+          Why <span className="highlight">Headless Commerce?</span>
+        </h2>
+        <p>
+          Headless commerce is the future of digital retail. By decoupling the frontend from the backend, it enables unmatched flexibility, performance, and scalability.
+        </p>
+      </div>
+
+      <div className="principles-list" data-aos="fade-left">
+        {principlesData.map((item) => (
+          <div
+            key={item.id}
+            className={`principle-box ${activeId === item.id ? "active" : ""}`}
+            onClick={() => setActiveId(item.id)}
+          >
+            <div className="number-circle">{item.id}</div>
+            <div className="principle-text">
+              <h3>{item.title}</h3>
+              <div className={`principle-content-wrapper ${activeId === item.id ? "expanded" : ""}`}>
+                <p className="principle-content">{item.content}</p>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
+  </section>
   );
 };
 

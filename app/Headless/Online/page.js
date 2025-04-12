@@ -1,12 +1,12 @@
 "use client"
-import "./online.css";
+import "./Online.css";
 
 export default function WhyChoose() {
   return (
     <section className="online-why-choose-section">
         <div className="subset">
       <h2 className="online-why-choose-title">
-        Why Choose BrainSpate for Headless Commerce Solutions?
+        Why Choose KushelDigi for Headless Commerce Solutions?
       </h2>
       <p className="online-why-choose-subtitle">
         BrainSpate is regarded as one of the best headless commerce companies. We offer a comprehensive suite of services, from custom development to integration and testing. Our experts can help businesses of all sizes leverage the benefits of headless commerce.

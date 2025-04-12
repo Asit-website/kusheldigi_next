@@ -7,12 +7,11 @@ export default function WhyChoose() {
   return (
     <section className="developmental">
       <div className="subset">
-        <h2 className="developmental-title">
-          Why Choose BrainSpate for Headless Commerce Solutions?
+        <h2 className="developmental-subtitle">
+        FUTURE-PROOF YOUR STORE
         </h2>
-        <p className="developmental-subtitle">
-          BrainSpate is regarded as one of the best headless commerce companies. We offer a comprehensive suite of services, from custom development to integration and testing. Our experts can help businesses of all sizes leverage the benefits of headless commerce.
-        </p>
+        <p className="developmental-title">
+        With Headless Commerce Development </p>
 
         <div className="developmental-cards">
           {[ 

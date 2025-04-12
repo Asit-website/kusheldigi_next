@@ -50,9 +50,10 @@
   }
   
   .storefront-right p {
-    font-size: 19px;
-    line-height: 1.8;
-    color: #333;
+    font-size: 17px;
+    line-height: 1.6;
+    padding: 10px 0px 0px 0px;
+    color: #111;
     margin: 0;
   }
   

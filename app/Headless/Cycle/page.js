@@ -96,13 +96,13 @@ const FullCycleEngineering = () => {
         <h2 className="full-cycle-heading">
         Headless Commerce Features
         </h2>
-        <div className="arrow-controls">
+        {/* <div className="arrow-controls">
 
 
 <button className="arrow-btn my-prev-btn"><FaArrowLeft /></button>
 <button className="arrow-btn my-next-btn"><FaArrowRight /></button>
 
-        </div>
+        </div> */}
       </div>
 
       <p className="full-cycle-subtext">
@@ -118,7 +118,7 @@ const FullCycleEngineering = () => {
     disableOnInteraction: false,
   }}
   breakpoints={{
-    320: { slidesPerView: 1.2 },
+    320: { slidesPerView: 1 },
     480: { slidesPerView: 2 },
     768: { slidesPerView: 3 },
     1024: { slidesPerView: 4 },
@@ -141,6 +141,13 @@ const FullCycleEngineering = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="arrow-controls">
+
+
+{/* <button className="arrow-btn my-prev-btn"><FaArrowLeft /></button>
+<button className="arrow-btn my-next-btn"><FaArrowRight /></button> */}
+
+        </div>
     </div>
   );
 };

@@ -26,7 +26,7 @@ const SamsungSecondSection = () => {
             Bet on higher reliability, improved performance, and seamless customer
             experience when it matters most.
           </p>
-          <button className="samsung2-button">Check all integrations</button>
+          {/* <button className="samsung2-button">Check all integrations</button> */}
         </div>
       </div>
     </div>
