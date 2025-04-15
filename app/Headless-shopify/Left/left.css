@@ -1,0 +1,132 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.left-section {
+    background-color: #f9fafb;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .left-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+  
+  .left-subtitle {
+    max-width: 760px;
+    margin: 0 auto 2rem auto;
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 20px;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  .left-grid {
+    display: grid;
+    gap: 32px;
+    max-width: 1380px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .left-card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .left-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    background-color: rgba(220, 220, 220, 0.644);
+  }
+  
+  .left-icon {
+    font-size: 36px;
+    color: #007BFF;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .left-card-title {
+    font-size: 1.25rem;
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  
+  .left-description {
+    color: #111;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .left-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .left-title {
+      font-size: 2rem;
+    }
+  
+    .left-subtitle {
+      font-size: 1rem;
+      padding: 0 12px;
+    }
+  
+    .left-grid {
+      gap: 24px;
+    }
+  
+    .left-card {
+      padding: 20px;
+    }
+  
+    .left-card-title {
+      font-size: 1.1rem;
+    }
+  
+    .left-description {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .left-title {
+      font-size: 1.7rem;
+    }
+  
+    .left-subtitle {
+      font-size: 0.95rem;
+    }
+  
+    .left-icon {
+      font-size: 32px;
+    }
+  
+    .left-card {
+      padding: 16px;
+    }
+  
+    .left-description {
+      font-size: 0.875rem;
+    }
+  }
+  
