@@ -291,8 +291,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/Ai2',
+      caseStudy: '/ai',
+      caseStudy: '/ai',
       platform: '/bigcommerce-development',
     },
     case:' View Case Study',
