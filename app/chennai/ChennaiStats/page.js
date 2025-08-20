@@ -11,6 +11,7 @@ export default function ChennaiStatsService() {
       discp:
         "We craft e-commerce portals that resonate with the contemporary audience in Chennai. Our <strong>eCommerce Development in Chennai</strong> transforms your business idea into a fully functional online store, from concept to deployment.",
       className: "card-blue",
+       route: "/chennai/ecommerce-development-company-in-chennai",
     
     },
     {

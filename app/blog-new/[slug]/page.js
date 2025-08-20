@@ -27,11 +27,13 @@ export default function ArticleDetail({ params }) {
 
   if (!article) {
     return (
-     <>
-      <Navbar/>
-      <div className="bg-black article-detail text-white text-center p-2">Article not found.</div>
-      <Footer/>
-     </>
+      <>
+        <Navbar />
+        <div className="bg-black article-detail text-white text-center p-2">
+          Article not found. We Are Working On it
+        </div>
+        <Footer />
+      </>
     );
   }
 
@@ -61,9 +63,11 @@ export default function ArticleDetail({ params }) {
                 {/* Render paragraphs */}
                 {article.content?.paragraphs &&
                   article.content.paragraphs.map((p, i) => (
-                    <p className="paratop1" key={"p" + i}>
-                      {p}
-                    </p>
+                    <p
+                      className="paratop1"
+                      key={"p" + i}
+                      dangerouslySetInnerHTML={{ __html: p }}
+                    />
                   ))}
                 {/* Render subHeading */}
                 {article.content?.subHeading && (
@@ -215,9 +219,11 @@ export default function ArticleDetail({ params }) {
                     </h3>
                   )}
                   {article.content?.bulletPoints4 && (
-                    <ul className="ul-3">
+                    <ul className="ul-4">
                       {article.content.bulletPoints4.map((bp, i) => (
-                        <li key={"bp2" + i}>{bp}</li>
+                        <>
+                          <li key={"bp2" + i}>{bp}</li>
+                        </>
                       ))}
                     </ul>
                   )}
@@ -227,7 +233,7 @@ export default function ArticleDetail({ params }) {
                     </h3>
                   )}
                   {article.content?.bulletPoints5 && (
-                    <ul className="ul-3">
+                    <ul className="ul-4">
                       {article.content.bulletPoints5.map((bp, i) => (
                         <li key={"bp2" + i}>{bp}</li>
                       ))}
@@ -239,11 +245,27 @@ export default function ArticleDetail({ params }) {
                     </h3>
                   )}
                   {article.content?.bulletPoints6 && (
-                    <ul className="ul-3">
+                    <ul className="ul-4">
                       {article.content.bulletPoints6.map((bp, i) => (
                         <li key={"bp2" + i}>{bp}</li>
                       ))}
                     </ul>
+                  )}
+
+                  {article.content?.subHeadingid3 && (
+                    <h4 className="small-head3">
+                      {article.content.subHeadingid3}
+                    </h4>
+                  )}
+                  {article.content?.subParagraphid3 && (
+                    <>
+                      <p className="paratop1">
+                        {article.content.subParagraphid3?.[0]}
+                      </p>
+                      <p className="paratop1">
+                        {article.content.subParagraphid3?.[1]}
+                      </p>
+                    </>
                   )}
 
                   {article.content?.smallHeading7 && (
@@ -252,9 +274,15 @@ export default function ArticleDetail({ params }) {
                     </h3>
                   )}
                   {article.content?.bulletPoints7 && (
-                    <ul className="ul-3">
+                    <ul className="ul-4">
                       {article.content.bulletPoints7.map((bp, i) => (
-                        <li key={"bp2" + i}>{bp}</li>
+                        <li key={"bp2" + i}>
+                          <strong className="pr-1">
+                            {article.content.strongbull7?.[i]}
+                          </strong>
+
+                          {bp}
+                        </li>
                       ))}
                     </ul>
                   )}
@@ -323,9 +351,14 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints8 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints8.map((bp, i) => (
-                          <li key={"bp2" + i}>{bp}</li>
+                          <li key={"bp2" + i}>
+                            <strong className="pr-1">
+                              {article.content.strongbull8?.[i]}
+                            </strong>
+                            {bp}
+                          </li>
                         ))}
                       </ul>
                     )}
@@ -346,9 +379,72 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints9 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints9.map((bp, i) => (
-                          <li key={"bp2" + i}>{bp}</li>
+                          <li key={"bp2" + i}>
+                            {" "}
+                            <strong className="pr-1">
+                              {article.content.strongbull9?.[i]}
+                            </strong>
+                            {bp}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
+                    {/* for id 3 */}
+
+                    {article.content?.smallHeadingid3_1 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeadingid3_1}
+                      </h3>
+                    )}
+                    {article.content?.bulletPointsid3_1 && (
+                      <ul className="ul-4">
+                        {article.content.bulletPointsid3_1.map((bp, i) => (
+                          <li key={"bp2" + i}>
+                            {" "}
+                            <strong className="pr-1">
+                              {article.content.strongbulld3_1?.[i]}
+                            </strong>
+                            {bp}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {article.content?.smallHeading9d3_2 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeading9d3_2}
+                      </h3>
+                    )}
+                    {article.content?.bulletPoints9d3_2 && (
+                      <ul className="ul-4">
+                        {article.content.bulletPoints9d3_2.map((bp, i) => (
+                          <li key={"bp2" + i}>
+                            {" "}
+                            <strong className="pr-1">
+                              {article.content.strongbulld3_2?.[i]}
+                            </strong>
+                            {bp}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {article.content?.smallHeading9d3_3 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeading9d3_3}
+                      </h3>
+                    )}
+                    {article.content?.bulletPoints9d3_3 && (
+                      <ul className="ul-4">
+                        {article.content.bulletPoints9d3_3.map((bp, i) => (
+                          <li key={"bp2" + i}>
+                            {" "}
+                            <strong className="pr-1">
+                              {article.content.strongbulld3_3?.[i - 1]}
+                            </strong>
+                            {bp}
+                          </li>
                         ))}
                       </ul>
                     )}
@@ -371,7 +467,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints44 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints44.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -383,7 +479,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints55 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints55.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -395,7 +491,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints66 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints66.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -418,7 +514,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints10 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints10.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -440,7 +536,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints11 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints11.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -452,7 +548,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints12 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints12.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -464,7 +560,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints13 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints13.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -476,7 +572,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints14 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints14.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -506,7 +602,7 @@ export default function ArticleDetail({ params }) {
                       </h3>
                     )}
                     {article.content?.bulletPoints15 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints15.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -526,7 +622,7 @@ export default function ArticleDetail({ params }) {
                       </>
                     )}
                     {article.content?.bulletPoints16 && (
-                      <ul className="ul-3">
+                      <ul className="ul-4">
                         {article.content.bulletPoints16.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
@@ -541,31 +637,88 @@ export default function ArticleDetail({ params }) {
                       </p>
                     )}
 
-
-
- {article.content?.subHeadingNew && (
+                    {article.content?.subHeadingNew && (
                       <h4 className="small-head3">
                         {article.content.subHeadingNew}
                       </h4>
                     )}
                     {article.content?.subParagraphNew && (
                       <>
-                        <p className="paratop1">
-                          {article.content.subParagraphNew[0]}
-                        </p>
-                        <p className="paratop1">
-                          {article.content.subParagraphNew[1]}
-                        </p>
-                        <p className="paratop1">
-                          {article.content.subParagraphNew?.[2]}
-                        </p>
+                        {article.content.subParagraphNew?.[0] && (
+                          <p className="paratop1">
+                            {article.content.subParagraphNew[0]}
+                          </p>
+                        )}
+
+                        {(article.content.strongbullnew?.[0] ||
+                          article.content.subParagraphNew?.[1]) && (
+                          <p className="paratop1">
+                            {article.content.strongbullnew?.[0] && (
+                              <strong className="pr-1">
+                                {article.content.strongbullnew[0]}
+                              </strong>
+                            )}
+                            {article.content.subParagraphNew?.[1]}
+                          </p>
+                        )}
+
+                        {(article.content.strongbullnew?.[1] ||
+                          article.content.subParagraphNew?.[2]) && (
+                          <p className="paratop1">
+                            {article.content.strongbullnew?.[1] && (
+                              <strong className="pr-1">
+                                {article.content.strongbullnew[1]}
+                              </strong>
+                            )}
+                            {article.content.subParagraphNew?.[2]}
+                          </p>
+                        )}
+
+                        {(article.content.strongbullnew?.[2] ||
+                          article.content.subParagraphNew?.[3]) && (
+                          <p className="paratop1">
+                            {article.content.strongbullnew?.[2] && (
+                              <strong className="pr-1">
+                                {article.content.strongbullnew[2]}
+                              </strong>
+                            )}
+                            {article.content.subParagraphNew?.[3]}
+                          </p>
+                        )}
+
+                        {(article.content.strongbullnew?.[3] ||
+                          article.content.subParagraphNew?.[4]) && (
+                          <p className="paratop1">
+                            {article.content.strongbullnew?.[3] && (
+                              <strong className="pr-1">
+                                {article.content.strongbullnew[3]}
+                              </strong>
+                            )}
+                            {article.content.subParagraphNew?.[4]}
+                          </p>
+                        )}
+
+                        {(article.content.strongbullnew?.[4] ||
+                          article.content.subParagraphNew?.[5]) && (
+                          <p className="paratop1">
+                            {article.content.strongbullnew?.[4] && (
+                              <strong className="pr-1">
+                                {article.content.strongbullnew[4]}
+                              </strong>
+                            )}
+                            {article.content.subParagraphNew?.[5]}
+                          </p>
+                        )}
+
+                        {article.content.subParagraphNew?.[6] && (
+                          <p className="paratop1">
+                            {article.content.subParagraphNew[6]}
+                          </p>
+                        )}
                       </>
                     )}
 
-
-
-
-                     {article.content?.subHeadingNew1 && (
+                    {article.content?.subHeadingNew1 && (
                       <h4 className="small-head3">
                         {article.content.subHeadingNew1}
                       </h4>
@@ -583,17 +736,6 @@ export default function ArticleDetail({ params }) {
                         </p>
                       </>
                     )}
-
-
-
-
-
-
-
-
-
-
-
 
                     {/* FAQ */}
 
@@ -630,15 +772,24 @@ export default function ArticleDetail({ params }) {
                     )}
                     {article.content?.subParagraph9 && (
                       <>
-                        <p className="paratop1">
-                          {article.content.subParagraph9[0]}
-                        </p>
-                        <p className="paratop1">
-                          {article.content.subParagraph9[1]}
-                        </p>
-                        <p className="paratop1">
-                          {article.content.subParagraph9?.[2]}
-                        </p>
+                        <p
+                          className="paratop1"
+                          dangerouslySetInnerHTML={{
+                            __html: article.content.subParagraph9[0],
+                          }}
+                        />
+                        <p
+                          className="paratop1"
+                          dangerouslySetInnerHTML={{
+                            __html: article.content.subParagraph9[1],
+                          }}
+                        />
+                        <p
+                          className="paratop1"
+                          dangerouslySetInnerHTML={{
+                            __html: article.content.subParagraph9?.[2],
+                          }}
+                        />
                       </>
                     )}
 

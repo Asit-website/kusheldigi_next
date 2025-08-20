@@ -150,6 +150,13 @@
   list-style: decimal;
   font-size: 16px;
 }
+.ul-4 {
+  margin-top: 12px;
+  padding-left: 20px;
+  padding-left: 16px;
+  list-style: none;
+  font-size: 16px;
+}
 .more-img img {
   border-radius: 10px;
   width: 100%;
