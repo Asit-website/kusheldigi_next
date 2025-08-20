@@ -14,7 +14,15 @@
   max-width: 100%;
   overflow: hidden;
 }
-
+.blog-content{
+  padding: 0 !important;
+}
+.blog-content p{
+  padding: 0 !important;
+}
+.blog-image img{
+  height: 100% !important;
+}
 /* Carousel wrapper - flex layout */
 .ye-carousel-class {
   display: flex;
