@@ -52,12 +52,12 @@ export default function DetailEcomDevDubai() {
   useEffect(() => {
     if (phoneInputRef.current) {
       const iti = intlTelInput(phoneInputRef.current, {
-        initialCountry: "in",
+        initialCountry: "ae",
         geoIpLookup: (callback) => {
           fetch("https://ipapi.co/json")
             .then((res) => res.json())
             .then((data) => callback(data.country_code))
-            .catch(() => callback("in"));
+            .catch(() => callback("ae"));
         },
         utilsScript:
           "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
@@ -108,8 +108,8 @@ export default function DetailEcomDevDubai() {
       return;
     }
 
-    if (phoneDigitsOnly.length !== 10) {
-      toast.error("Phone number must be exactly 10 digits!");
+    if (phoneDigitsOnly.length !== 9) {
+      toast.error("Phone number must be exactly 9 digits!");
       return;
     }
 
@@ -527,11 +527,11 @@ export default function DetailEcomDevDubai() {
               ref={phoneInputRef}
               onInput={(e) => {
                 const digits = e.target.value.replace(/\D/g, "");
-                if (digits.length <= 10) {
+                if (digits.length <= 9) {
                   e.target.value = digits;
                 } else {
-                  e.target.value = digits.slice(0, 10); // trim to 11
-                  toast.error("Only 10 digit phone number allowed!");
+                  e.target.value = digits.slice(0, 9); // trim to 11
+                  toast.error("Only 9 digit phone number allowed!");
                 }
               }}
               required
