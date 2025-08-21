@@ -3,8 +3,8 @@ import "../../globals.css";
 
 import Footer from "../../COMMON/Footer";
 import Navbar from "../../COMMON/Navbar";
-import DetailEcomDevChennai from "./DetailEcomDevGurgaon/page";
-import HeroEComDevChennai from "./HeroEComDevGurgaon/page";
+import DetailEcomDevGurgaon from "./DetailEcomDevGurgaon/page";
+import HeroEComDevGurgaon from "./HeroEComDevGurgaon/page";
 
 const phoneNumber = "9045301702";
 
@@ -22,8 +22,8 @@ function EcommerceGurgaonComponent() {
       <div className="ser-main"></div>
 
       <Navbar />
-      <HeroEComDevChennai />
-      <DetailEcomDevChennai />
+      <HeroEComDevGurgaon />
+      <DetailEcomDevGurgaon />
 
       <Footer />
 

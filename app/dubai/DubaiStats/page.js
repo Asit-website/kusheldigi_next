@@ -14,15 +14,15 @@ export default function DubaiStatsService() {
       className: "card-blue",
       route: "/dubai/ecommerce-website-development-dubai",
     },
-    // {
-    //   icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
-    //   // sub: "BigCommerce",
-    //   title: "website design company in dubai",
-    //   discp:
-    //     "You can customize BigCommerce solutions to meet the needs of your business. These solutions are built to help you sell more online and grow faster.",
-    //   className: "card-yellow",
-    //   route: "/dubai/website-design-company-in-dubai",
-    // },
+    {
+      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
+      // sub: "BigCommerce",
+      title: "Website Design Company in Dubai",
+      discp:
+        "You can customize Website solutions to meet the needs of your business. These solutions are built to help you sell more online and grow faster.",
+      className: "card-yellow",
+      route: "/dubai/website-design-company-in-dubai",
+    },
     {
       icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
       // sub: "Shopify",

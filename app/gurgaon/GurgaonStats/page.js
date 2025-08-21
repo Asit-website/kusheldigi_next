@@ -8,6 +8,7 @@ export default function GurgaonStatsService() {
     {
       icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281752_as3wvy.png",
       title: "E-Commerce Development Company in Gurgaon",
+      route: "/gurgaon/ecommerce-development-company-in-gurgaon",
       discp:
         "Our ecommerce sites are customized to help Gurgaon grow its emerging retail and technology landscape with high conversion potential. Power up your business idea into a robust online store.",
       className: "card-blue",

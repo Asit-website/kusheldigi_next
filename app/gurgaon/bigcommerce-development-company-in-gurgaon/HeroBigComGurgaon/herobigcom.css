@@ -1,4 +1,4 @@
-.hero-bg-ecom {
+.hero-bigCom-gur {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url("https://res.cloudinary.com/dxlykgx6w/image/upload/v1755592603/Greaternoidawestcommercialprojects_1_wvcjvx.png");
   background-size: cover;
@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .hero-bg-ecom {
+  .hero-bigCom {
     height: auto;
     padding: 60px 0;
   }

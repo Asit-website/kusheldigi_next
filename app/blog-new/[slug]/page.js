@@ -73,13 +73,26 @@ export default function ArticleDetail({ params }) {
                 {article.content?.subHeading && (
                   <h2 className="subhead1">{article.content.subHeading}</h2>
                 )}
-                {/* Render subParagraph */}
+
+                {/* Render subParagraphs with dangerouslySetInnerHTML */}
                 {article.content?.subParagraph?.[0] && (
-                  <p className="paratop1">{article.content.subParagraph[0]}</p>
+                  <p
+                    className="paratop1"
+                    dangerouslySetInnerHTML={{
+                      __html: article.content.subParagraph[0],
+                    }}
+                  />
                 )}
+
                 {article.content?.subParagraph?.[1] && (
-                  <p className="paratop1">{article.content.subParagraph[1]}</p>
+                  <p
+                    className="paratop1"
+                    dangerouslySetInnerHTML={{
+                      __html: article.content.subParagraph[1],
+                    }}
+                  />
                 )}
+
                 {/* Render smallHeading */}
                 {article.content?.smallHeading && (
                   <h3 className="small-head1">
@@ -604,6 +617,28 @@ export default function ArticleDetail({ params }) {
                     {article.content?.bulletPoints15 && (
                       <ul className="ul-4">
                         {article.content.bulletPoints15.map((bp, i) => (
+                          <li key={"bp2" + i}>{bp}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {article.content?.subHeading71 && (
+                      <h4 className="small-head3">
+                        {article.content.subHeading71}
+                      </h4>
+                    )}
+                    {article.content?.subParagraph71 && (
+                      <p className="paratop1">
+                        {article.content.subParagraph71}
+                      </p>
+                    )}
+                    {article.content?.smallHeading161 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeading161}
+                      </h3>
+                    )}
+                    {article.content?.bulletPoints161 && (
+                      <ul className="ul-4">
+                        {article.content.bulletPoints161.map((bp, i) => (
                           <li key={"bp2" + i}>{bp}</li>
                         ))}
                       </ul>
