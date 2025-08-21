@@ -12,7 +12,7 @@ export default function AbuDhabiStatsService() {
       discp:
         "We make custom e-commerce sites that are easy for people to use and help your business grow by getting more customers and more online sales.",
       className: "card-blue",
-      route: "/abu-dhab/web-development-companies-in-abu-dhabi​",
+      route: "/abu-dhabi/web-development-company-in-abu-dhabi",
     },
     // {
     //   icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",

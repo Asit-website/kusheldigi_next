@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import "./hero.css";
+import "./herobigcom.css";
 export default function HeroBigComGurgaon() {
   return (
     <section
-     className="hero-bigCom"
+     className="hero-bigCom-gur"
     >
       <div className="overlay-black">
         <h1>Bigcommerce Development Company in Gurgaon</h1>

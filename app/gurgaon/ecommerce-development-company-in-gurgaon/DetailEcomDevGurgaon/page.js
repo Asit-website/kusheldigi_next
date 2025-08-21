@@ -7,7 +7,7 @@ import "./details.css";
 
 import { useRouter } from "next/navigation";
 
-export default function DetailEcomDevChennai() {
+export default function DetailEcomDevGurgaon() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -164,52 +164,56 @@ export default function DetailEcomDevChennai() {
     <section className="details-sec">
       <div className="details-desc">
         <h3>
-          Ecommerce Development Company in Chennai – Build a Site That Reflects
-          Your Brand and Converts with Confidence
+          Ecommerce Development in Gurgaon: Build Future-Ready Digital Stores
         </h3>
         <p>
-          Every business in Chennai has a story. Your website should be the
-          digital anchor that makes it unforgettable. As a reputable e-commerce
-          business development firm in Chennai, our area of specialty is the
-          creation of customized online stores designed to reflect your company
-          brand, your business requirements, and your business expansion plans.
+          Wanting to grow your online business with solutions that are both
+          strong and futuristic? We are an ecommerce development agency that
+          serves growth-driven businesses in Gurgaon. We design and build fast,
+          flexible, result-oriented ecommerce platforms. We know how to scale in
+          India’s top tech hubs. This applies to D2C lifestyle brands, B2B
+          distributors, and hyperlocal delivery start-ups.
         </p>
         <p>
-          We believe in knowing your audience, what you sell, and why. You might
-          need a clean and minimalistic one-brand Shopify shop, a feature-rich
-          BigCommerce site, or a fully-tailored ecommerce solution. Our
-          developers create responsive, blisteringly fast websites that are a
-          pleasure to use across all devices.
+          The online marketplace of Gurgaon is booming like never before, and so
+          should your online store. We create ecommerce experiences that are
+          both beautiful and functional. This helps you attract more traffic,
+          reduce cart abandonment, and boost repeat purchases.
         </p>
         <p>
-          We deliver it all; blazing-fast page speed, secure payment
-          integrations, and more. We do not stop at launch. With proactive
-          maintenance, analytics installations, SEO setups, and platform
-          updates, we ensure your site continues to perform well many years
-          after launching.
+          You could be launching a product for the first time. Maybe you're
+          changing your sales model. Or you might be expanding your multi-vendor
+          operation. We shape our development process to fit your needs and
+          business goals. At our ecommerce development company in Gurgaon, we
+          build ecommerce platforms that grow with your vision. We start with
+          your concept and take it all the way to code and conversion. Our
+          solutions are future-proof.
         </p>
-        <p>
+        {/* <p>
           When you seek a skilled e-commerce development company in Chennai with
           the capability to integrate technology with intelligent branding, no
           one is better than us. Get in touch with Kushel Digi, we will create
           something your chapter members will adore and your rivals will crave.
-        </p>
-        <h4>Our Web Development Services in Chennai Include</h4>
+        </p> */}
+        <h4>Custom Web App Development for Modern Businesses</h4>
         <p>
-          We provide a wide scope of web development services in Chennai that
-          are customized according to the specific needs of the business locally
-          as well as internationally. Whether your brand is more traditionally
-          entrenched or must and tech-advanced, our work is versatile and
-          scalable to address the online objectives of your brand.
-        </p>
-        <p>
-          We are consultative at Kushel Digi; our web developers and UI/UX
-          designers gain deep knowledge in your business model, customer
-          behavior, and market intent. Whether constructing a niche ecommerce
-          system or remodeling an enterprise system, we have rich technical
-          skills and imaginative precision.
+          A basic web application is not sufficient in Gurgaon, where the
+          ecommerce industry is booming. Companies require intelligent
+          applications that are able to address actual operations. We provide
+          tailor-made web application services. They assist in improving
+          logistics, inventory, and customer relations in your ecommerce
+          adventure.
         </p>
         <p>
+          We develop powerful web applications to meet your requirements. Your
+          sales force in Gurgaon might find use in customized CRM systems, and
+          your delivery partners might require to track tracking dashboards. You
+          are covered by us. Our technologies are React, Node.js, Laravel, etc.
+          Our tools are flexible, safe, and easy to use. They are integratable
+          with your current systems. This will help you to develop efficiencies
+          and a competitive edge.
+        </p>
+        {/* <p>
           The integration of third-party tools, custom plugins, dashboards, and
           performance optimizations is also the area of our expertise to make
           sure your site is productive in its functional efficiency and success
@@ -220,265 +224,253 @@ export default function DetailEcomDevChennai() {
           We offer web development services that can hit the spot in Chennai and
           beyond to provide high-performance outcomes based on your brand, your
           audience, and your goals with a focus on results and performance.
-        </p>
-        <h4>Comprehensive Web Development Services in Chennai</h4>
-        <h6>Custom Web Application Development</h6>
+        </p> */}
+        <h4>UX/UI Design Services for Seamless Digital Experiences</h4>
+        {/* <h6>Custom Web Application Development</h6> */}
         <p>
-          Kushel Digi offers tailor-made web application programming services to
-          businesses in Chennai by empowering them to automate, expand, and
-          lead. Whether it is internal tools or customer-facing, our team is
-          highly experienced in the creation of secure applications that utilize
-          scalable infrastructure customized to your unique workflows.
-        </p>
-        <p>
-          We develop fast, responsive, and SEO-ready solutions using the latest
-          technologies such as Python, PHP, Ruby on Rails, Node.js, and Laravel.
-          Whether you're managing operations or launching a new product, our
-          Chennai-based developers support you through every phase; discovery,
-          design, development, and deployment.
+          In Gurgaon, the ecommerce customers are on the move, smart, and easy
+          to go out with. The UX design department is aware of the modern
+          customers. The well-designed experiences are retention, engagement,
+          and conversion.
         </p>
         <p>
-          Your custom app will work smoothly in any environment using each
-          project, which consists of post-launch support and integration with
-          your existing systems. We can create something strong together.
+          It is award-winning, heatmap, behavior-tracked, A/B tested visual
+          storytelling. This makes for a custom and hassle-free ecommerce
+          experience.
         </p>
-        <h6>User Experience (UX) Design</h6>
+        <ul className="extra-chen-li">
+          Our UX strategies can:
+          <li>Optimize the checkout flow </li>
+          <li>Create interactive product discovery environments </li>
+          <li>Improve sales </li>
+          <li>Limit cart abandonment</li>
+        </ul>
         <p>
-          Our digital users demand more across Chennai, and that is what we
-          offer. At Kushel Digi, we involve close research, continuous testing,
-          and data-driven design choices in our UX design process. Our digital
-          experiences are not only beautiful, but are also planned to motivate
-          real engagement and conversions.
+          Focusing on urban consumers in the NCR region or B2B buyers can set
+          you apart with purposeful design. We will enable it.
+        </p>
+        <h6>
+          Progressive Web App Development for Fast, Mobile-First Performance
+        </h6>
+        <p>
+          In this fast and competitive digital economy of Gurgaon, it is purely
+          speed and availability. Our PWA development services help ecommerce
+          companies to offer app-like UX, which can be operated smoothly without
+          needing anything to be installed. PWAs are faster to load,
+          offline-capable, and are also among the fully mobile-optimized
+          applications. This will be the magnet that will attract the high-tech
+          buyers in Gurgaon.
         </p>
         <p>
-          Whether it wears wireframes and prototyping, complete interface
-          design, we create smooth experiences in e-commerce, enterprise
-          dashboards, and mobile apps. We apply such tools as Figma, Adobe XD,
-          and Hotjar, as well as A/B testing, to enhance UX performance on an
-          ongoing basis.
+          We develop bespoke PWAs made with Angular, Vue.js, and React. This
+          assists in making your ecommerce store quicker and raises SEO. Your
+          PWA will increase user engagement and repeat visits. This is because
+          it uses push notifications, unlimited access to the home screen, and
+          very minimal data usage. This is critical in the case of local brands,
+          delivery apps, and on-demand services as well.
         </p>
-        <p>
+        {/* <p>
           We will seek to develop a user interface that is natural, exposed, and
           coherent with your brand narrative as well as user anticipation. Good
           design is about more than sight; it is practical, and it sells.
-        </p>
-        <h6>Progressive Web App (PWA) Development</h6>
+        </p> */}
+        <h6>
+          Custom API Integration Services for Seamless System Connectivity
+        </h6>
         <p>
-          The future of mobile-friendly performance will be PWAs, and our
-          Chennai tier-1 team delivers. We are experts in Progressive Web App
-          development that brings the blistering pace of the internet together
-          with the performance of native applications.
-        </p>
-        <p>
-          Our PWAs are installable, responsive, and lightweight, designed to
-          load instantly, even offline. We guide you to provide captivating
-          digital experiences across platforms and devices using technologies
-          such as Service Workers, Web Push Notifications, and App Shell
-          Architecture.
+          The ecommerce companies of Gurgaon have the need to grow with strong
+          API connectivity. Interested in setting up third-party logistics APIs
+          such as Delhivery or Shiprocket? Or are you in need of payment
+          processors such as Stripe or Razorpay? Or we may assist in SAP or Zoho
+          ERPs. You can find it all here!
         </p>
         <p>
+          Our expertise in integration, safety, real-time, and optimization on
+          your platforms is guaranteed. We assist you in connecting your
+          warehouse, payment, inventory, and customer relationship management
+          (CRM) systems. This forms a core e-commerce engine. It enhances
+          automation, quickens delivery, and improves the customer experience
+          via channels.
+        </p>
+        {/* <p>
           Our PWAs are reliable, secure, and fast, whether in e-commerce systems
           or booking engines. Our PWA services offer high performance and low
           bounce rates so that your brand can compete effectively against other
           mobile-first consumers in India or take over where you have limited
           presence presently.
-        </p>
-        <h6>API Integration</h6>
+        </p> */}
+        <h6>End-to-End Full-Stack Web Development Services</h6>
         <p>
-          The current culture of making businesses in Chennai work is supported
-          by interdependent ecosystems, and this is where API integration plays
-          a role. We are experts in software system integration, CRM
-          integration, ERP, e-commerce integration, payment gateway, and
-          third-party tools integration at Kushel Digi to achieve smooth data
-          movement and a unified digital experience.
+          Our ecommerce development company in Gurgaon helps businesses gain
+          full control of their technology. We will provide a full development.
+          This consists of UI/UX design and backend logic, and database
+          structure.
         </p>
         <p>
-          Our developers have practical experience in all types of industries
-          and therefore, your APIs will be secure, scalable, and fully
-          compatible with your tech stack. We provide businesses with essential
-          systems, such as social media and logistics systems, which end up
-          streamlining procedures and boosting production.
+          We utilize the stacks (MERN, MEAN, LAMP) to develop safe and scalable
+          environments. Whether you run a fashion store for Gen Z or a B2B
+          company with complex orders, our team will build an ecommerce site. It
+          will manage peak traffic and grow with your needs.
         </p>
-        <p>
+        {/* <p>
           The API integration services we offer include consultation, system
           mapping, development, testing, and after-launch support. Both headless
           commerce solution construction and multichannel lead collection
           automation benefit from seamless, secure connectivity throughout the
           process, facilitated by our local Chennai team.
-        </p>
-        <h6>Full-Stack Development</h6>
+        </p> */}
+        <h6>Website Upgrade and Platform Migration Solutions</h6>
         <p>
-          Kushel Digi provides business solutions for full-stack development in
-          Chennai to companies that need to develop high-performance, dynamic
-          web applications. We have experience with front and back-end
-          technologies like React, Angular, Node.js, PHP, Python, and MySQL, and
-          can provide solutions that are flexible and scalable and can serve
-          your specific needs.
-        </p>
-        <p>
-          Our development process is tested: it starts with the requirement
-          gathering and ends with the deployment and maintenance. Hiring great
-          people, training them right, and being able to execute efficiently on
-          their knowledge is an important aspect of being a successful company,
-          whether you are developing an e-commerce portal or a SaaS product, or
-          whether you are building an internal business tool.
+          In this dynamic ecommerce environment, transferring your internet
+          store to a new modern platform or upgrading it is inevitable. We
+          provide upgrade and migration services to businesses in Gurgaon. We
+          are able to migrate legacy CMS, legacy code, or slow processes to
+          modern systems. It incorporates a platform such as BigCommerce,
+          Shopify, Magento, or even a headless CMS.
         </p>
         <p>
+          All the data is not lost, your SEO remains intact, and users
+          experience a faster and better experience. It could be tech migration
+          or a total redesign of UX; we simplify it all for you. This will
+          enable you to remain competitive in the Gurgaon dynamic market.
+        </p>
+        {/* <p>
           We aim at creating powerful applications that not only give an
           appealing look but also provide a smooth usability, quick loading, and
           good conversion rates. In the rapidly developing tech and startup
           environment in Chennai, we can keep you on pace with full-stack
           solutions that grow with you.
-        </p>
-        <h6>Upgradation and Migration</h6>
+        </p> */}
+        <h6>Why Choose Us As Your Ecommerce Development Company in Gurgaon?</h6>
         <p>
-          Technology is moving at a rapid pace, and unless your platforms can
-          keep up, the performance and customer experience may be affected. This
-          is the reason why we provide dedicated Upgradation & Migration
-          services to Chennai, which assist businesses in transferring their
-          applications to newer, faster, safer environments.
+          We are not only ecommerce developers; we are your digital growth
+          partners. Located in the core of Gurgaon, we know the business pulse,
+          consumer behaviour, and how fast D2C and B2B ecommerce business models
+          have grown. We empower local, evidence-based, and scaled responses.
         </p>
+        <h6>Skilled ecommerce Developers in Gurgaon</h6>
         <p>
-          We take care of all the details of the migration process, including
-          version updates and UI redesigns, as well as full-stack cross-platform
-          migration or cloud migration. We aim for zero downtime, seamless data
-          migration, and minimal risk to your existing operations.
-        </p>
-        <p>
-          When you are looking to upgrade an old application or move to a new
-          CMS, our Chennai software engineers plan, test, and implement all
-          without any downtime. We also offer comprehensive reporting,
-          post-migration testing, and support to make everything go well after
-          launch.
+          Our expert team in Gurgaon will deliver a great blend of creativity,
+          technical skill, and ecommerce insight. We do not merely write code,
+          but create conversion and retention-driving digital ecosystems.
         </p>
         <p>
-          With our trusted upgradation and migration services, let us help you
-          future-proof your platform, maximize performance, and deliver new
-          capabilities.
-        </p>
-        <h4>Why Choose Us As Your Ecommerce Development Company in Chennai?</h4>
-        <p>
-          By hiring Kushel Digi as your e-commerce development team in Chennai,
-          you will be collaborating with a high-powered team to help you feel
-          the pulse of the digital and retailing environment of Tamil Nadu. Our
-          technical excellence is paired with a strong sense of craftsmanship:
-          we create websites that are scalable, secure, and visually engaging,
-          which allows us to realize your brand vision.
+          Our developers know many ecommerce frameworks. They include Shopify,
+          Magento, BigCommerce, and custom-built solutions. We can set up tricky
+          filter conditions. We can also create custom checkout processes and
+          connect with local delivery providers. We were able to do all of the
+          above and more.
         </p>
         <p>
-          Our Chennai design, development, and planning team is reputed to
-          complete a job well done on time and on budget. On the first day, we
-          start keeping you informed, with all transparency and strategic advice
-          throughout the process. You are an early-stage D2C brand or a big box
-          retailer looking to reach the online world, and we customize the
-          solutions to fit your size and vision.
+          All of our members are not only coded; they are also commercially
+          trained. We know the behavior of the real shoppers, how logistics
+          work, and how performance influences the selling. We are based in
+          Gurgaon. We understand local needs, like regional tax rules. We also
+          work with payment and fulfillment partners in NCR.
         </p>
         <p>
-          This is why Chennai businesses choose to partner with us in driving
-          their e-commerce transformation:
+          With our team, you gain more than developers. You get long-term
+          partners who care about your growth in ecommerce. They will treat your
+          business as their own.
         </p>
-        <h6>Expert Team of Developers</h6>
+        <h4>Latest Ecommerce Technologies and Tools</h4>
         <p>
-          We are strong because of our people. The development department at
-          Kushel Digi, Chennai, has full-stack talent, UI/UX professionals, and
-          platform experts who live to solve complex tasks and create smooth
-          digital experiences.
-        </p>
-        <p>
-          We keep on top of the technology trends - whether learning the latest
-          front-end architectures such as React, Next.js, and Laravel, or
-          creating solutions on Shopify, BigCommerce, and bespoke
-          infrastructure. What is more significant is, we will sit through
-          listening to how your business model works, the flow of the products
-          and customers, and not a line is coded until it is understood.
+          Gurgaon is a rapidly growing technological city. In this case, keeping
+          oneself abreast of technology is not an option, but a requirement. At
+          Kushel Digi, we enable online companies to use the current technology.
+          In this way, they will be able to establish quick and solid online
+          stores in the future. We integrated features that are demanded by the
+          modern customer. These are AI product suggestions, voice search, and
+          dynamic pricing engines.
         </p>
         <p>
-          Our developers align with your growth goals, because we don’t just
-          build ecommerce websites; we build your competitive edge.
-        </p>
-        <h6>Leverage New Technology</h6>
-        <p>
-          The Chennai digital environment is rapidly evolving, and we keep you
-          abreast of it. Our team is continuously updating to new trends and new
-          technologies, utilizing new technologies to construct websites that
-          are not only state-of-the-art today, but ready to withstand the test
-          of time tomorrow.
+          Our area of interest is premium technological solutions. This involves
+          marketing automation, chat engines in real time, headless
+          architecture, and personalization engines. The purpose of these apps
+          is to drive more interaction, convert better, and make backend tasks
+          easier.
         </p>
         <p>
-          Whether it is AI-driven customization or sophisticated analytics and
-          mobile-first design, we adopt technology that can improve user
-          interest and long-term ROI. Our developers are educated in
-          cross-platform frameworks, PWA development, and third-party
-          integrations, which allow to facilitate easier shopping experiences
-          and more intelligent business operations.
+          Our coders know the latest ecommerce trends and technology. You don’t
+          have to. We suggest upgrades, run pilot tests, and improve your stack
+          for the best performance. Your ecommerce platform with Kushel Digi
+          will not fall behind, but will rather pioneer it.
+        </p>
+        <h6>Mobile-Responsive and Optimized Ecommerce Stores</h6>
+        <p>
+          The online shoppers in Gurgaon are in very large numbers who are
+          dependent on mobiles, and responsive design is the key to success in
+          an online business. At Kushel Digi, our ecommerce websites are
+          responsive on every device. They maintain the same outstanding
+          performance and appearance whether it is on a desktop, laptop, tablet,
+          or smartphone.
         </p>
         <p>
-          By partnering with us, you are not only acquiring a technology partner
-          but also investing in a team that will support your brand in its
-          development.
-        </p>
-        <h6>Responsive Website Development</h6>
-        <p>
-          A responsive site is no longer just an option in a city where mobile
-          users command online traffic, such as Chennai. In Kushel Digi, we make
-          responsive e-commerce websites that are completely cross-device
-          compatible, so that everyone finds the most optimal experience.
+          We apply an adaptive development strategy where each touchpoint is
+          convenient to utilize. This covers product exploration and checkout.
+          These functions are quick and are wholly optimized to be used on
+          phones. Our fluid layouts, adaptive videos and images, and smooth
+          navigation are used. This ensures that shopping is easy regardless of
+          how and where customers browse your brand.
         </p>
         <p>
-          We are mobile-first, so your site will be quick loading, attractive,
-          and will work well on smartphones, tablets, or computers. We optimize
-          usability, conversion pathways, and visual hierarchy, aligned with
-          your brand’s goals.
+          We consider mobile speed and Core Web Vitals, not just aesthetics.
+          This helps boost your SEO rankings and lower the bounce rate. Whether
+          your customer is on a metro ride in Gurgaon or shopping in Cyber City,
+          your site will look great and function better.
         </p>
         <p>
-          From touch-optimized interfaces to adaptive content layouts, we help
-          your online store perform at its best, anytime, anywhere.
+          Our ecommerce development company in Gurgaon tests on real devices and
+          browsers. This way, we ensure responsive results.
         </p>
-        <h6>Flexibility</h6>
+        <h6>Flexible Ecommerce Solutions Tailored to Your Business</h6>
         <p>
-          In a dynamic market like Chennai, flexibility is more than a
-          value-add; it’s a necessity. At Kushel Digi, we understand that no two
-          businesses are alike, which is why we deliver flexible ecommerce
-          solutions that are tailored to your unique operational needs, goals,
-          and customer behavior.
-        </p>
-        <p>
-          Our team doesn’t offer one-size-fits-all packages. Instead, we take
-          the time to understand your business context, from regional audience
-          preferences to inventory complexities, and adapt our development
-          approach accordingly. Whether you're building a custom checkout,
-          multilingual store, or integrating legacy tools, we ensure every
-          aspect of your solution works seamlessly for your team and customers.
+          Each business in Gurgaon is different, and your ecommerce store must
+          be too. We build ecommerce scalable e-commerce applications. They suit
+          your business processes and may help you grow. Our development
+          strategy is tailored to your use, to your local Delhi NCR or national
+          seller.
         </p>
         <p>
-          By choosing us, you gain a partner that thrives on adaptability and
-          innovation, helping you pivot quickly, optimize continuously, and
-          scale confidently in Chennai’s ever-evolving digital space.
-        </p>
-        <h6>Customization Techniques</h6>
-        <p>
-          Customization lies at the core of how we create impact for
-          Chennai-based brands. At Kushel Digi, we use data, user insights, and
-          business logic to design e-commerce websites that are not just
-          technically sound but aligned with your brand voice, workflows, and
-          long-term strategy.
+          We have features that are aligned with your business. This involves
+          multi-tier shipping, custom bundles of products, and versatile
+          discounts. We are also offering a backend architecture that scales.
+          This allows you to add newer features, integrations, or storefronts
+          without redesigning everything.
         </p>
         <p>
-          From personalized landing pages and location-specific content to
-          unique product filters and customer journeys, we build with purpose.
-          Our developers are skilled in leveraging APIs, dynamic content
-          systems, and frontend frameworks to create tailored experiences that
-          improve engagement and increase conversions.
+          Need to pivot in the middle of the project or use a flash sale? No
+          problem. Our solutions cope with seasonal fluctuations and life
+          changes. Flexibility is an attitude at Kushel Digi. It aids your shop
+          in maintaining timeliness in the dynamic Gurgaon market.
+        </p>
+        <h6>Custom-Built Ecommerce Features for Better Conversions</h6>
+        <p>
+          Personalization is one thing that can make ecommerce brands stand out
+          in a saturated market. It is like in Gurgaon, wherein the availability
+          of a unique niche holds the key to recognition. We tailor your web
+          store by utilizing your brand and making sure it meets the needs of
+          your customers, as well as details in every aspect at Kushel Digi.
         </p>
         <p>
-          We also apply customization techniques to backend flows, such as
-          custom shipping rules, tax setups, and vendor dashboards, making your
-          store not only look great, but run smarter.
+          We create bespoke category models. Our packages are young products and
+          urban services. Our designs are multi-lingual, and we emphasize client
+          data. You require loyalty features to satisfy the Gurgaon customers.
+          You need GST-priced purchasing or a bespoke B2B portal with controlled
+          accessibility. We can help with all of this.
         </p>
         <p>
-          With Kushel Digi, customization isn’t just cosmetic. It’s strategic.
-          And it’s how we turn your e-commerce vision into a finely-tuned,
-          results-driven platform.
+          We create custom dashboards. You can manage them with an admin. They
+          have role-based permissions for large teams. Plus, they offer
+          real-time analytics integrations. This way, you’ll always stay in
+          control. We do not work with templates; we create with purpose,
+          strategy, and stories.
+        </p>
+        <p>
+          Your brand will be unique in every touch point, whether it is through
+          homepage banners, follow-up emails after an order, or much more.
+          Personalization is not superficial. It has a purpose, and we are
+          successful in it.
         </p>
 
         <div className="detail-foot">

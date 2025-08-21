@@ -7,6 +7,15 @@
   position: sticky;
   top: 83px;
 }
+.extra-chen-li{
+  list-style: inside;
+  margin: 10px 0px;
+
+}
+.extra-chen-li li{
+  margin: 0px;
+
+}
 
 .getquote-form {
   width: 390px;
