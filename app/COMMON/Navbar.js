@@ -262,6 +262,10 @@ const data = [
             title: "Dubai",
             navigate: "/dubai",
           },
+          {
+            title: "Abu dhabi",
+            navigate: "/abu-dhabi",
+          },
         ],
       },
       {
@@ -952,6 +956,13 @@ const Navbar = () => {
                                     </span>
                                   </Link>
                                 </div>
+                                <div className="dummy ">
+                                  <Link href="/abu-dhabi">
+                                    <span className="hover-country-ext">
+                                      Abu dhabi
+                                    </span>
+                                  </Link>
+                                </div>
                               </div>
                             </div>
                             <div className="">
@@ -1158,11 +1169,11 @@ const Navbar = () => {
                                   onClick={() => {
                                     setcuropen(false);
                                   }}
-                                  className="cursor-pointer"
+                                  className="cursor-pointer plus-icon"
                                 />
                               ) : (
                                 <FiPlus
-                                  className="cursor-pointer"
+                                  className="cursor-pointer plus-icon"
                                   onClick={() => {
                                     setcuropen(index);
                                   }}

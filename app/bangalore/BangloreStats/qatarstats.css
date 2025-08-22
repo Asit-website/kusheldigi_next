@@ -1,4 +1,4 @@
-.stats-section-dubai {
+.stats-section-noida {
   margin: auto;
   /* width: 65%;
   grid-template-columns: repeat(2, 1fr); */
@@ -129,7 +129,7 @@
     font-size: 27px;
     /* text-align: center; */
   }
-  .stats-section-dubai {
+  .stats-section-noida {
     width: 85%;
   }
 }
@@ -139,7 +139,7 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .stats-section-dubai {
+  .stats-section-noida {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
@@ -159,7 +159,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .stats-section-dubai {
+  .stats-section-noida {
     grid-template-columns: repeat(1, 1fr);
   }
   .center-item-noida {
@@ -176,7 +176,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .stats-section-dubai {
+  .stats-section-noida {
     padding: 20px 40px;
   }
   .service-sec2 {

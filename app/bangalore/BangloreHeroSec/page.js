@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import "./dhabiherosec.css";
-export default function HeroSectionDhabi() {
+import "./qatarherosec.css";
+export default function HeroSectionBanglore() {
   return (
     <section
-     className="dhabi-hero-main"
+     className="noida-hero-main"
     >
       <div className="overlay-black">
-        <h1>Abu Dhabi</h1>
+        <h1>Bangalore</h1>
       </div>
     </section>
   );

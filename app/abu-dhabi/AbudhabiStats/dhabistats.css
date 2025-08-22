@@ -1,8 +1,8 @@
-.stats-section-noida {
+.stats-section-dhabi {
   margin: auto;
-  width: 65%;
+  width: 50%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   gap: 24px;
   padding: 60px 64px;
@@ -52,9 +52,9 @@
   transform: translateY(-6px);
 }
 
-.ptag-service {
+.ptag-service-dhabi {
   font-size: 18px;
-  min-height: 116px;
+  /* min-height: 116px; */
   text-align: left;
 }
 
@@ -127,7 +127,7 @@
     font-size: 27px;
     /* text-align: center; */
   }
-  .stats-section-noida {
+  .stats-section-dhabi {
     width: 85%;
   }
 }
@@ -137,9 +137,9 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .stats-section-noida {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+  .stats-section-dhabi {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
   }
   .service-sec2 p {
     /* text-align: center; */
@@ -157,7 +157,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .stats-section-noida {
+  .stats-section-dhabi {
     grid-template-columns: repeat(1, 1fr);
   }
   .center-item-noida {
@@ -174,8 +174,8 @@
 }
 
 @media screen and (max-width: 480px) {
-  .stats-section-noida {
-    padding: 20px 40px;
+  .stats-section-dhabi {
+    padding: 20px 10px;
   }
   .service-sec2 {
     padding: 50px 25px;

@@ -3,8 +3,8 @@ import '../../globals.css';
 
 import Footer from '../../COMMON/Footer';
 import Navbar from '../../COMMON/Navbar';
-import DetailAbuDhabiWeb from './DetailBigComAbudhabi/page';
-import HeroAbuDhabiWeb from './HeroBigComAbudhabi/page';
+import DetWebBanglore from './DetWebsiteBanglore/page';
+import HeroWebBanglore from './HeroWebdevBanglore/page';
 
 
 const phoneNumber = "9045301702";
@@ -17,14 +17,14 @@ const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
 }
-function AbuDhabiWebComponent() {
+function WebsiteBangloreComponent() {
     return (
         <div>
             <div className='ser-main'></div>
 
             <Navbar />
-         <HeroAbuDhabiWeb/>
-         <DetailAbuDhabiWeb/>
+         <HeroWebBanglore/>
+         <DetWebBanglore/>
         
             <Footer/>
 
@@ -41,4 +41,4 @@ function AbuDhabiWebComponent() {
     )
 }
 
-export default AbuDhabiWebComponent;
+export default WebsiteBangloreComponent;

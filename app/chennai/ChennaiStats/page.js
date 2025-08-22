@@ -23,7 +23,7 @@ export default function ChennaiStatsService() {
     },
 
     {
-      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
+      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1755856055/coding_1_ssl8nd.png",
 
       title: "Web Development Company in Chennai",
       discp:
@@ -36,7 +36,7 @@ export default function ChennaiStatsService() {
   return (
     <section className="main-stats-sec">
       <h2 className="service-heading">Our Services</h2>
-      <section className="stats-section-noida">
+      <section className="stats-section-chennai">
         {stats.map((stat, index) =>
           stat.route ? (
             <Link
