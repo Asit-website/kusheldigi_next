@@ -1,4 +1,4 @@
-.stats-section-noida {
+.stats-section-chennai {
   margin: auto;
   width: 100%;
   display: grid;
@@ -127,7 +127,7 @@
     font-size: 27px;
     /* text-align: center; */
   }
-  .stats-section-noida {
+  .stats-section-chennai {
     width: 85%;
   }
 }
@@ -137,7 +137,7 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .stats-section-noida {
+  .stats-section-chennai {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
@@ -152,7 +152,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .stats-section-noida {
+  .stats-section-chennai {
     grid-template-columns: repeat(1, 1fr);
   }
   .center-item-noida {
@@ -169,7 +169,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .stats-section-noida {
+  .stats-section-chennai {
     padding: 20px 40px;
   }
   .service-sec2 {

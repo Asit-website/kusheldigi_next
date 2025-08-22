@@ -1,43 +1,43 @@
 "use client";
 import React from "react";
-import "./dubaistats.css";
+import "./qatarstats.css";
 import Link from "next/link";
 
-export default function DubaiStatsService() {
+export default function BangloreStatsService() {
   const stats = [
     {
       icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281752_as3wvy.png",
       // sub: "eCommerce",
-      title: "E-Commerce Website Development Dubai",
+      title: "Website Development Company in Bangalore",
       discp:
         "Get ecommerce options in Dubai that are made just for your business. Make it easy for people to remember your online business, buy more, and have a better experience.",
       className: "card-blue",
-      route: "/dubai/ecommerce-website-development-dubai",
+      route: "/bangalore/website-development-company-in-bangalore",
     },
-    {
-      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1755856055/coding_2_lmrkvr.png",
-      // sub: "BigCommerce",
-      title: "Website Design Company in Dubai",
-      discp:
-        "You can customize Website solutions to meet the needs of your business. These solutions are built to help you sell more online and grow faster.",
-      className: "card-yellow",
-      route: "/dubai/website-design-company-in-dubai",
-    },
-    {
-      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
-      // sub: "Shopify",
-      title: "Shopify Web Development Services Dubai",
-      discp:
-        "It might help your business grow and make more sales if you pick the right Dubai Shopify software company. We can help your company grow by giving you quick, adaptable, and SEO-friendly options.",
-      className: "card-green center-item-noida ",
-      route: "/dubai/shopify-web-development-services-dubai",
-    },
+    // {
+    //   icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
+    //   // sub: "BigCommerce",
+    //   title: "Website Design Company in qatar",
+    //   discp:
+    //     "You can customize Website solutions to meet the needs of your business. These solutions are built to help you sell more online and grow faster.",
+    //   className: "card-yellow",
+    //   route: "/qatar/website-design-company-in-qatar",
+    // },
+    // {
+    //   icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
+    //   // sub: "Shopify",
+    //   title: "Shopify Web Development Services qatar",
+    //   discp:
+    //     "It might help your business grow and make more sales if you pick the right qatar Shopify software company. We can help your company grow by giving you quick, adaptable, and SEO-friendly options.",
+    //   className: "card-green center-item-noida ",
+    //   route: "/qatar/shopify-web-development-services-qatar",
+    // },
   ];
   return (
     <>
       <section className="main-stats-sec">
         <h3 className="service-heading">Our Services</h3>
-        <section className="stats-section-dubai">
+        <section className="stats-section-noida">
           {stats.map((stat, index) => (
             <Link
               href={`${stat.route}`}

@@ -5,11 +5,11 @@ export const metadata = {
   alternates: {
     canonical: "/dubai/website-design-company-in-dubai",
   },
-  title: "BigCommerce Development Company in dubai | Kushel Digi",
-  description: "Kushel Digi is a leading bigcommerce development company in dubai, offering tailored ecommerce solutions to launch, grow, and scale your online store.",
+  title: "Website Design Company in Dubai | Kushel Digi",
+  description: "Kushel Digi is a trusted Website Design Company in Dubai offering creative, responsive, and SEO-friendly web solutions to help your business grow online.",
   openGraph: {
-      title: "BigCommerce Development Company in dubai | Kushel Digi",
-  description: "Kushel Digi is a leading bigcommerce development company in dubai, offering tailored ecommerce solutions to launch, grow, and scale your online store.",
+      title: "Website Design Company in Dubai | Kushel Digi",
+  description: "Kushel Digi is a trusted Website Design Company in Dubai offering creative, responsive, and SEO-friendly web solutions to help your business grow online.",
     url: "https://www.kusheldigi.com/dubai/website-design-company-in-dubai",
     images: [
       {

@@ -224,7 +224,13 @@ export default function ArticleDetail({ params }) {
                   {article.content?.subParagraph2 && (
                     <p className="paratop1">{article.content.subParagraph2}</p>
                   )}
-
+                  {article.content?.image1 && article.content.image1[1] && (
+                    <img
+                      src={article.content.image1[1]}
+                      alt="article extra"
+                      style={{ maxWidth: "100%", marginTop: 16 }}
+                    />
+                  )}
                   {/* Render smallHeading4 and bulletPoints4 */}
                   {article.content?.smallHeading4 && (
                     <h3 className="small-head2">

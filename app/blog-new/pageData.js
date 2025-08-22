@@ -965,6 +965,122 @@ Once everything is prepared, you can begin with launching your storefront. Some 
       ],
     },
   },
+  {
+    id: 7,
+    title:
+      "How to use social media to build your eCommerce brand & drive conversions?",
+    category: "ecommerce",
+    soc_icon: ["/facebook", "/linkedin", "/twitter"],
+    banner: [
+      "https://res.cloudinary.com/dt2lhechn/image/upload/v1747739888/blog_images/tnenxhlq9qxng9wg1jvv.jpg",
+    ],
+    head: "How to use social media to build your eCommerce brand & drive conversions?",
+    image:
+      "https://res.cloudinary.com/dt2lhechn/image/upload/v1747739888/blog_images/tnenxhlq9qxng9wg1jvv.jpg",
+    date: "July 29, 2025 ",
+    time: " 10:30 AM",
+    author: {
+      name: "Hemant Sharma",
+      designation: "Senior E-commerce Strategist",
+    },
+    content: {
+      paragraphs: [
+        `Whether it’s the outspread audience reach or the opportunity to launch targeted ad campaigns, social media can transform your eCommerce brand, if used smartly. With the global social sales hitting a whopping value of $764.49 billion in 2024, these two entities are no longer separate. In fact, consider them as two peas a same pod, walking hand in hand. You will be surprised to know almost 82% of consumers discover products they want on various social media platforms. `,
+      ],
+      image1: [
+        "https://lh7-rt.googleusercontent.com/docsz/AD_4nXczIslGa3lLCSsUj_Udgd6m2r2AWV-0nXEmIycwRfFUR9dUTX55ynxSqe3VLrQWLS3hAqVXDzkntpA24KED81DDQTxKE9_wNeU7Y2PSvKrTGbE7zKJmX6kklEdM_vbhNZIqt-f1KiSZNL6U?key=AIJQTeTnf39YH_p4s_hT2Q",
+        "",
+        "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXxTZAzodp_54U3CrWg1yG6YYQKCv-hMCJxdUn7t128CT5seYB6Y7tzIn4CojR08NhD2Zp3n0-dDiSNpo1IhTkme2xsH8OQieX7tF1Eq9jfqjZyIteJrVWCl6i5E4IKec-9y6t9MfV8Hhy?key=AIJQTeTnf39YH_p4s_hT2Q"
+      ],
+
+      subParagraph1: [
+        `Although the numbers are truly appealing, the social commerce market is highly congested and competitive. You need to act smart to harness its true potential and walk on a successful brand transformative journey. From strategic planning to technology adoption, there are ways through which you can build a strong digital footprint for your brand. So, let’s discover how you can use social media to drive higher conversions and fortify your ecommerce shop for a golden future.  `,
+      ],
+
+      smallHeading3: "Selecting the right platform for your brand",
+      bulletPoints3: [
+        `Although there are numerous social media platforms, all of them might not be appropriate for your brand’s transformative journey. For example, Instagram might not value to your eCommerce strategies if your business is related to medical and healthcare products. Similarly, LinkedIn is not the correct platform to drive traffic and conversions for a B2C eCommerce business model. So, you need to decide the targeted platforms according to your business type, audience to be targeted, and the use cases. `,
+      ],
+
+      table1: {
+        title: "Web Design and Development Estimated Costs",
+        columns: ["Social media platform", "Best for", "eCommerce use cases"],
+       rows: [
+  ["Instagram", "Beauty, fashion, and lifestyle", "Influencer marketing and product showcasing"],
+  ["Facebook", "General audience", "Community building, ads, and Facebook shops"],
+  ["TikTok", "Viral content and Gen Z", "Trend jacking and short videos"],
+  ["Pinterest", "DIY, lifestyle, and women", "Seasonal marketing and visual products"],
+  ["X", "Real-time updates", "Trending content and customer service"],
+  ["LinkedIn", "B2B brands", "Brand authority and professional product showcasing"],
+],
+
+      },
+      subHeading2:"Optimizing social media profiles",
+ subParagraph2: [
+        `Always consider your social media profiles to be your brand’s storefront. Just like you look for the best design eCommerce websites and always invest in the optimization, you cannot leave your social media profiles unattended. Building a strong and credible image will help you draw more web traffic and gradually increase the conversions. `
+      ],
+  
+
+      bulletPoints11: [
+        "Here’s what you should do. ",
+        "1. Always use consistent username and account handle across different social media platforms. It will prove your business’s integrity to the target audience.",
+"2. The bio should be concise and to-the-point. Make it value-driven so that your target audience can put their faith in your brand. Add a CTA or link to your website for driving direct traffic.",
+"3. For the profile picture, go with the brand logo or a professional photo. ",
+"4. Add keywords specific to your brand’s mission and vision. This will help you connect with the right target audience across multiple platforms. ",
+      ],
+      smallHeading12: "Building a consistent brand voice and aesthetics",
+      bulletPoints12: [
+        "Given how competitive the social commerce industry has become, you need to build recognition and trust for your business. Consistency is the key to driving credibility for the eCommerce business and surpassing your competitors. Whether you are bold or playful, the tone and look of your social media handles should reflect your brand’s appeal and value. Here are a few tips you can use.  ",
+      ],
+      // smallHeading13: "Building major storefront features",
+      bulletPoints13: [
+"1. Your posts, DMs, and comments should have a consistent tone and language. In other words, they must reflect on your brand’s tone, like friendliness or wittiness.",
+"2. Leverage a clear outline for fonts, colors, filters, hashtags, and other components for an uniform appearance.", 
+"3. It’s better to use pre-built templates for announcements and promotions for a cohesive approach."
+      ],
+
+      subHeading7: "Creating engaging and relevant content ",
+      subParagraph7: [
+        "Content is the backbone of any social media marketing strategy. Whether it’s a promotional campaign or a behind-the-scene video, great content will establish relevance. Your target audience can feel inspired and will be drawn to your profile. Below are some content types that can yield maximum results for your brand’s transformative strategy. ",
+      ],
+      bulletPoints15: [
+        "1. User-generated content: You can encourage your customers to tag your profile on their stories, feeds, and reels.",
+"2. Product-related content: Showcase the products you sell through high-quality videos and images across various social media platforms.",
+"3. Behind-the-scene: Give your target audience a visual about what goes behind the screen with such BTS videos. These are great for establishing trust and building brand’s credibility. ",
+"4. Reviews and testimonials: Gain your audience’s trust by showing what your past customers have to say about the products or the brand itself. ",
+"5. Live streams: These can boost the conversion rates by several notches by engaging your audience in real time.",
+      ],
+      subHeading71: "Using affiliate and influencer marketing",
+      subParagraph71: [
+        `  
+One of the most prominent eCommerce challenges is not finding the right channels to increase the market outreach and publicize the brand. That’s why you should capitalize on the power of the influencers. These people not only have a well-established audience base but can add more value to your eCommerce business in a short time. Here are a few strategies you can use to implement a successful influencer marketing strategy. `,
+      ],
+
+      bulletPoints161: [
+        "1. Do not just focus on the follower count of the influencers. Move past this attribute and consider the niche, engagement rate, authenticity, and relevance. ",
+"2. It’s better to start this campaign with micro-influencers. They have a loyal audience base and can easily drive your ROIs up. ",
+"3. Define the goals for your influencer marketing campaign clearly. Therse can include boosting awareness, driving sales, or increasing conversions through direct web traffic. ",
+"4. Leverage ongoing and continuous partnerships with the influencers. These will help you in the long run over the one-off promotions. ",
+      ],
+
+      subHeading8: "Monitoring, testing, and continuous improvements",
+      subParagraph8: [
+        `The only way to make the headless commerce for B2B brands successful is to work on continuous discovery and improvements. Some of the best ways to do so are:
+`,
+      ],
+      bulletPoints16: [
+        "1. Setting up tracker with tools like Google Analytics and Hotjar",
+        "2. Monitoring different errors using LogRocket and Sentry",
+        "3. Running A/B tests using Google Optimize",
+        "4. Improving the core web vitals and the Lighthouse score ",
+      ],
+
+      subHeading9: "Conclusion",
+      subParagraph9: [
+        "You will be surprised to know the headless BigCommerce real world examples currently thriving in the online commerce market. Burrow, Skullcandy, Blume, Mikkeller, and Habanero Pepper Sauce are a few to name. They have taken the leap of faith and migrated their business from the rigid monolith architecture to the modular headless commerce one. So, it’s time you too follow their footsteps and leverage BigCommerce to build a modern, flexible, and optimized storefront. ",
+      ],
+    },
+  },
 ];
 
 export default pageData;

@@ -50,6 +50,9 @@ body {
   font-weight: 700;
 }
 
+.plus-icon{
+  margin-right: 50px;
+}
 .sub-heading {
   color: #33475b;
   font-size: 19px;
@@ -51037,6 +51040,11 @@ font-size: 16px !important;
   line-height: 24px;
   text-align: left;
   color: #000000;
+}
+@media screen and (max-width:330px) {
+  .topnavdeail{
+    width: 275px;
+  }
 }
 
 .curopensf {

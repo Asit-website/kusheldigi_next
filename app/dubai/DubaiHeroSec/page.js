@@ -4,7 +4,7 @@ import "./dubaiherosec.css";
 export default function HeroSection() {
   return (
     <section
-     className="noida-hero-main"
+     className="dubai-hero-main"
     >
       <div className="overlay-black">
         <h1>Dubai</h1>
