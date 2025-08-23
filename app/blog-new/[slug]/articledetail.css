@@ -46,6 +46,7 @@
   width: 90%;
   max-height: 506px;
   margin: 35px auto;
+  height: 100%;
   /* object-fit: cover; */
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 }
@@ -59,7 +60,8 @@
 }
 .cta-Banner {
   position: sticky;
-  top: 50%;
+  top: 30%;
+  height: 400px;
   right: 80px;
   display: flex;
   flex-direction: column;
@@ -67,6 +69,9 @@
   width: 150px !important;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
+/* .cta-Banner img{
+  height: 100%;
+} */
 .contt-sec {
   margin-top: 70px;
   display: flex;
@@ -206,6 +211,40 @@
   background-color: #f1f5f9;
   transition: background-color 0.2s ease;
 }
+
+/* .borderbottomline{
+ border-bottom: 2px solid #000;
+  padding: 4px;
+  display: inline; 
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0;
+} */
+
+
+.borderbottomline {
+  display: inline;
+  padding: 4px 0; /* optional, gives spacing */
+  position: relative;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+
+  /* gradient acts as bottom border */
+  background-image: linear-gradient(to right, black 100%, transparent 0);
+  background-repeat: no-repeat;
+  background-position: 0 100%;      /* align at bottom */
+  background-size: 0% 2px;          /* start hidden, only 2px tall */
+  transition: background-size 0.6s ease;
+}
+
+.borderbottomline:hover {
+  background-size: 100% 2px; /* expand underline left → right */
+}
+
+
+
 
 
 .faq-blogN {

@@ -164,210 +164,205 @@ export default function DetailwebsiteQatar() {
     <section className="details-sec">
       <div className="details-desc">
         <h4>
-          Professional Website Design Company in Dubai – Build a Stunning Online
-          Presence
+          Website Development Company in Qatar: Offering Creative & Modern Web
+          Solutions
         </h4>
         <p>
-          Looking for a partner who creates websites tailored to your brand?
-          We're the best website Design company in Dubai, helping brands create
-          cool vibes online. We build websites that are safe, load fast, look
-          great on mobile, and are really easy for everyone to use.
+          Looking for a reliable website development company in Qatar that
+          really gets your business? You're in the right spot! Your website is
+          pretty much your online shopfront these days. It's the first thing
+          people notice when they check you out. Seriously, first impressions
+          are everything!
         </p>
         <p>
-          Absolutely, we all know how important it is to make a great first
-          impression. That's why we make cool websites that work great and look
-          amazing on any device. Your buyers can easily search, no matter what
-          device they're on.
+          An old and boring website can piss off the customers and impact sales,
+          but a modern and sleek website attracts visitors and encourages them
+          for more conversions. That’s what we do. We not only create simple
+          websites- we design seamless experiences for customers that leave an
+          impact on them.
         </p>
         <p>
-          Every company has its own laid-back vibe. That's why we stay away from
-          clichés.We make unique websites that totally fit the vibe and goals of
-          your brand. We can whip up anything from a simple business site to a
-          super cool e-commerce platform packed with features.
+          Our websites load quickly, are super secure, look great on mobile, and
+          are made to keep your audience engaged. If you're a small startup
+          wanting to show off your services or a big brand looking to amp up
+          your online presence with an ecommerce store, we've got your back. We
+          always ensure that every project we take on fits your brand's vibe and
+          what you're aiming for.
         </p>
         <p>
-          Our method is super simple. We get to know your audience, hear your
-          thoughts, and create a website that transforms visitors into loyal
-          customers. We make your website stand out with stylish designs,
-          awesome graphics, and easy-to-use features.
+          No dull templates here, just cool designs, easy navigation, and
+          SEO-friendly sites that really deliver. At the end of the day, your
+          website needs to be about more than just looking nice.
         </p>
         <p>
-          Let's turn your dream into a reality. Hit us up anytime to schedule a
-          free chat about how we can help you create the perfect website for
-          your business.
+          It's all about getting people in the door, earning their trust, and
+          making your business thrive. And that’s exactly what we do best.
         </p>
-        <h5>What We Offer as a Website Design Services in Dubai?</h5>
+        <h5>Which Website Development Services Do We Provide in Qatar?</h5>
         <p>
-          We're a top website design company in Dubai, and we’re all about
-          making websites that look awesome and work like a charm. If you're
-          just starting out online or if you're a well-known brand wanting to
-          give your site a fresh look, we've got your back.
+          We've got everything you need for website development in Qatar to help
+          your business shine online. We focus on creating websites that look
+          awesome, load fast, and work seamlessly on any device.
         </p>
         <p>
-          We make websites that are fast, secure, mobile-friendly, and super
-          easy to navigate. We whip up everything from simple business sites to
-          fancy online stores, always keeping your audience in mind. We've got
-          all your bases covered—payment gateways, custom features, interactive
-          stuff, and more—to keep everything running smoothly.
+          We make websites that match your brand's style and help your business
+          stand out. We can whip up anything from simple business sites to
+          really awesome online shops. We make it super easy for folks to find
+          your site on Google, so they can discover you without any fuss. We add
+          fun features like contact forms, chat support, and easy navigation to
+          ensure visitors enjoy their experience.
         </p>
         <p>
-          What makes us different is the way we team up with you. We hear you
-          out, get what you're aiming for, and then whip up solutions that
-          really work for your business.Let’s keep it easy and to the point—just
-          real talk and genuine results. If you need a website to boost your
-          business, we’ve got you covered.
-        </p>
-
-        <h5> What Website Design Services Do We Offer?</h5>
-        <h6> Tailored Website Design for Your Brand</h6>
-        <p>
-          Your website shouldn't blend in with the crowd. It’s gotta show off
-          your brand and vibe with your audience. We're a top-notch website
-          design company in Dubai, crafting designs that really showcase your
-          business. We keep things looking fresh and simple from the homepage
-          all the way to the product or service pages, making it super easy to
-          navigate. Our designers really get to know your business, your
-          customers, and your goals before kicking off any project.
-        </p>
-        <p>
-          We keep our layouts looking good while making sure they're super
-          practical, so visitors can easily find what they need without getting
-          lost. All designs are super mobile-friendly and optimized for
-          performance, making sure they run smoothly on phones, tablets, and
-          desktops. If you're after a chill, minimal vibe or something totally
-          out there, we've got you covered to make your ideas a reality.
+          We always keep security and speed in mind. We've got the coolest tools
+          and tech to keep your website safe and running like a charm. We make
+          more than just websites. We also craft amazing online stores that
+          attract customers, improve sales and connect with them.
         </p>
 
+        <h5> Our Website Development Services in Qatar Include:</h5>
+        <h6> Personalised Website Design</h6>
         <p>
-          A solid design really helps build trust, keeps folks interested, and
-          sticks in their minds. Working with us means you’ll get a website
-          that’s not just really cool but also helps your business stand out.
-        </p>
-        <h5>E-Commerce Websites That Boost Sales</h5>
-        <p>
-          If you've got an online store, your website is basically your main
-          shop window. We create cool e-commerce websites that not only look
-          great but also help turn visitors into customers. Every product page
-          is designed to help you browse and buy with ease. We've got some
-          awesome features like simple navigation, handy search filters, and a
-          super smooth checkout experience.
+          Your business is one of a kind, so your website should totally reflect
+          that. We’ve got custom website design services available in Qatar just
+          for you. We skip the dull templates. We whip up designs that totally
+          vibe with your brand, style, and goals. We totally dive into your
+          business, your customers, and what makes you tick. Next, we’re going
+          to create a website that looks great and really connects with your
+          audience.
         </p>
         <p>
-          Making sure everything's secure is really important, so your customers
-          can feel good about shopping. We set up dependable payment gateways
-          and keep everything running without a hitch. We’ll make sure your
-          store loads fast, works great on mobile, and can expand as your
-          product lineup grows.
-        </p>
-        <p>
-          If you're starting a new online store or sprucing up your existing
-          one, we've got the perfect solutions for you. We've got it covered,
-          whether it's a little cozy shop or a big online store. Just make sure
-          your customers can shop without any hassle, and you'll boost your
-          sales with a slick, high-quality website.
-        </p>
-
-        <h5>Responsive and Mobile-Friendly Designs</h5>
-        <p>
-          These days, many people use their phones to surf the web. That's why
-          it's no longer a nice-to-have an app that works well on phones, it's a
-          must. We make sure that your website works well on all devices and
-          looks great.
+          We prefer to keep things simple with clean designs, awesome visuals,
+          and easy navigation. Your visitors should have a good time browsing
+          and easily find what they're looking for. If you're looking for a
+          straightforward corporate site or a cool portfolio, we can totally
+          make your ideas happen.
         </p>
 
         <p>
-          The style changes on the fly so that it looks good and works well on
-          any device, whether you're on a phone, tablet, or computer. People can
-          scroll, click, and shop without any problems. We’re all about creating
-          responsive layouts that are super simple and easy to use. Everything
-          from fonts and images to navigation menus and buttons is made to work
-          smoothly on mobile. This also boosts your search engine ranking since
-          Google likes websites that work well on mobile devices.
+          We ensure the design looks awesome on all devices. The online store
+          looks amazing on all the devices. A custom design website stands
+          unique among the crowd and helps you earn customers trust, resulting
+          in more conversion rates. Your website isn't just a page; it's a solid
+          digital identity for your business in Qatar.
+        </p>
+        <h5>E-Commerce Website Development</h5>
+        <p>
+          Online shopping is really taking off in Qatar, and starting an
+          ecommerce site can create some awesome opportunities for your
+          business. We're here to help you get your online store up and
+          running—easy to use, secure, fast, responsive, SEO optimized and ready
+          to boost your sales. We've got everything sorted from product pages to
+          checkout, making sure it all goes off without a hitch.
         </p>
         <p>
-          In Dubai’s bustling market, where people want quick and easy access to
-          services, having a responsive design can really set your business
-          apart. We check out every site on different devices to make sure
-          everything runs smoothly. No need to stress about missing out on
-          customers because of a bad mobile design with us around. Your
-          website's gonna look super professional all over the place and bring
-          in more visitors.
-        </p>
-
-        <h5>SEO-Friendly Web Development</h5>
-        <p>
-          A cool website is only good if people can actually discover it. That's
-          where SEO comes into play. We build websites that are designed to be
-          SEO-friendly, helping your business move up the ranks on Google and
-          other search engines. We've got it all sorted, from clean code to fast
-          loading times—every little thing is handled.
+          Customers can check out your products, toss stuff in their cart, and
+          wrap things up without a hitch. A straightforward and easy-to-use
+          design makes shopping super simple, leading to more sales for you.
+          We've got secure payment options set up to help you feel confident.
+          You can pay with cards, wallets, or even cash on delivery, whatever
+          works best for you.
         </p>
         <p>
-          We whip up content layouts that search engines can totally read and
-          index without a hitch. This basically means your site is more likely
-          to pop up in front of potential customers. Our team stays on top of
-          the latest SEO trends, like using optimised URLs, image tags, and
-          ensuring everything looks great on mobile. We set you up with
-          analytics tools so you can track performance and really understand
-          your audience.
-        </p>
-        <p>
-          In Dubai's digital world, having a website that's SEO-friendly can
-          really make a difference. Whether you're targeting the locals or going
-          for a worldwide audience, we've got your website sorted to catch eyes
-          and deliver results. When you join forces with us, you’re not just
-          getting a sleek website—you’re getting one that actually helps people
-          discover and trust your business.
+          Our ecommerce sites are totally responsive, so your store will look
+          awesome on mobile devices as well. If you're looking to sell 10
+          products or even 10,000, we've got a system that’s quick, dependable,
+          and can grow with you. You get a super handy online store that helps
+          your business connect with more customers all over Qatar and even
+          further.
         </p>
 
-        <h5>Fast and Secure Websites</h5>
+        <h5> Content Management Systems (CMS)</h5>
         <p>
-          A quick and safe website is really key to making it successful. If
-          your site is slow, folks are gonna leave pretty quickly. If it’s not
-          safe, folks just won’t trust it. That's why we keep both in mind for
-          every project. We’re all about using the latest tech and coding hacks
-          to whip up websites that load super fast, even with amazing images and
-          fun features.
+          Running a website doesn't have to be a hassle. That's why we provide
+          CMS development services in Qatar. You can easily update your website
+          content whenever you want with a CMS, no tech skills required!
         </p>
 
         <p>
-          We make sure everything's secure with SSL certificates, reliable
-          payment gateways, and regular updates to keep your data and your
-          customers safe. This creates a relaxed browsing and shopping
-          atmosphere, which is really key for businesses in Dubai’s growing
-          online market. A fast and secure website keeps things simple for users
-          and can help your SEO rankings as well.
+          We team up with cool platforms like WordPress, Drupal, and Joomla. We
+          create a system that’s easy to use, totally tailored to what you need.
+          You can throw in new pages, tweak the text, upload some images, or
+          even get your blogs out there in just a few minutes. A CMS website can
+          totally help you save both time and cash. You can totally handle small
+          changes on your own without needing a developer. You totally have
+          control over your website. We also keep the CMS secure and make sure
+          it runs fast.
+        </p>
+        <p>
+          Our CMS solutions are perfect for businesses looking for some
+          flexibility. No matter if you’ve got a corporate site, a news portal,
+          or just a personal blog, you can totally manage it with ease. Your
+          website stays fresh and updated with CMS development, and you don’t
+          have to lift a finger.
+        </p>
+
+        <h5>Mobile-Friendly Web Development</h5>
+        <p>
+          More people in Qatar are using their smartphones to surf the web than
+          ever before. That's why we make websites that work great on mobile
+          devices. A responsive design makes sure your site looks awesome on any
+          screen, whether it’s a phone, tablet, or laptop. We’re all about easy
+          navigation, quick loading times, and layouts that fit perfectly on any
+          device.
+        </p>
+        <p>
+          Visitors shouldn't have a hard time reading text, clicking buttons, or
+          checking out images on a smaller screen. A mobile-friendly website can
+          totally boost your SEO ranking. Google really digs responsive
+          websites, and they can help you score more traffic from search
+          results. Also, when the user experience is better, folks tend to hang
+          around on your site longer and are more inclined to reach out or buy
+          something.
+        </p>
+        <p>
+          In Qatar’s quick-paced digital scene, having a mobile-friendly website
+          isn’t just nice to have—it’s essential. With our service, you’ll get a
+          stylish, fast, responsive website that looks clean on any device and
+          keeps your audience engaged results in boost sales.
+        </p>
+
+        <h5>Website Maintenance & Support</h5>
+        <p>
+          If you want your website to look good, you can't just make it and
+          forget about it; you have to keep up with it regularly. That's why we
+          work here in Qatar to maintain and help people with their websites. We
+          make sure that your site works perfectly and has no problems.
         </p>
 
         <p>
-          Search engines really dig websites that are quick and dependable. We
-          run a ton of tests before we launch to make sure everything goes off
-          without a hitch. Teaming up with us means you’ll get a website that
-          actually works, keeps your visitors relaxed, and helps you grow over
-          time.
+          We take care of bugs, broken links, and loading errors fast so they
+          don’t mess with your visitors. Keeping up with regular maintenance
+          makes sure your website runs smoothly and gives users a great
+          experience. We are here to help you with content updates and design
+          changes whenever you need them. If you’re looking to add some new
+          features or switch up the layouts, our support team is here to help
+          you out anytime.
         </p>
 
-        <h5>Ongoing Support and Maintenance</h5>
         <p>
-          Firstly, get your site running. As long as you do regular repairs and
-          changes, everything will work fine. We'll keep your site safe, quick,
-          and up to date.
+          Your website stays fresh and never feels outdated with regular
+          maintenance.
+        </p>
+
+        <h5>SEO-Friendly Development</h5>
+        <p>
+          A nice-looking website isn't going to help if nobody visits it. That's
+          why we keep it chill with SEO-friendly website development. We craft
+          websites that look awesome, load fast, secure, third party integrated
+          and are made to grab the attention of search engines.
         </p>
         <p>
-          We've got you covered for all sorts of stuff, whether it's fixing
-          little issues or throwing in some awesome new features and switching
-          up materials. We switch up the speed when we need to, and we just keep
-          an eye on how everything's going. Not stressing over tech problems
-          will help your business run like a breeze. They're super flexible, so
-          you can choose the help plan that suits you best.
+          Getting a higher ranking means more visitors to your site, which could
+          lead to more potential customers for your business. We ensure your
+          website loads quickly because slow sites can seriously hurt sales. We
+          whip up search-friendly URLs, sitemaps, and cool content areas that
+          are all optimized. These will totally help you stand out online.
         </p>
         <p>
-          In Dubai, where things are always buzzing, it's key to keep your
-          website fresh and reliable. Let our experts handle the tech stuff
-          while you kick back and focus on growing your business. We're here for
-          you every day to help you make those lasting changes that will keep
-          your website looking good. If you stay on top of maintenance, your
-          website will always look great, be secure, and run smoothly.
+          If you’ve got a small local shop in Qatar or a business that’s on the
+          rise, making your site SEO-friendly can really help you connect with
+          the right crowd. It's not just a website; it's a spot that attracts
+          visitors, pulls in customers, and helps your business grow.
         </p>
         {/* <p>
           We handle everything, from building the front end to making sure it
@@ -377,150 +372,146 @@ export default function DetailwebsiteQatar() {
           and quicker all at the same time.
         </p> */}
 
-        <h5>Why Pick Us for Your Website Design in Dubai?</h5>
+        <h5>Why Choose Us for Website Development in Qatar?</h5>
         <p>
-          Choosing the right website design company can be a little challenging.
-          Your website is more than just a spot online—it’s the first impression
-          folks get of your brand, a way to score some sales, and a chance to
-          earn trust. You definitely want a team that gets design, strategy, and
-          tech.
+          Picking the right website development buddy can really change the game
+          for your online success. A website is not just some online thing. Your
+          brand's first impression, a sales tool, and a way to connect with
+          customers. That's why we aim to create websites that look great and
+          are also smart, secure, and easy to use.
         </p>
         <p>
-          We're a reliable web design company in Dubai, helping startups, small
-          businesses, and enterprises create websites that really get the job
-          done. We’ve got everything from sleek, modern designs to layouts that
-          are all about SEO. Our goal is to make sure your site grabs attention,
-          keeps people interested, and turns visitors into customers right from
-          the start.
+          Our team mixes creativity, tech skills, and industry smarts for every
+          project we take on. We understand what you’re looking for, get the
+          vibe of your business, and then create a website that really
+          highlights your brand.
         </p>
         <p>
-          We don’t just whip up websites—we craft complete online experiences
-          that help your brand thrive and succeed. When you work with us, you
-          can expect clear communication, deadlines that we stick to, and
-          results that really show what we can do.Check out why we could be the
-          perfect fit for your web design adventure:
-        </p>
-        <h5> Experience That Matters</h5>
-        <p>
-          Your business needs a crew that gets what works in the digital space.
-          We've got years of experience in website design, creating everything
-          from basic business sites to more complex platforms. We don’t just
-          pick themes or take the easy route—we really get into your business,
-          your goals, and your audience before creating any design. This ensures
-          your website isn't just another cookie-cutter template, but a unique
-          solution crafted specifically for your brand.
+          If you need an online store, a business website, or something
+          one-of-a-kind, we’ve got you sorted with awesome quality and fast
+          delivery.
         </p>
         <p>
-          We make websites that look awesome, are really easy to use, and have a
-          nice, clean feel. As we move along, we’re always checking out the
-          latest design trends and tech to keep your site fresh and
-          future-ready.
+          When you team up with us, you're not just getting a service—you’re
+          getting a buddy who's all about helping you grow in the digital space.
+        </p>
+        <h5> Experienced Team You Can Rely On</h5>
+        <p>
+          It's very important to have a great knowledge when you're creating
+          websites. From small start-ups to well-known brands, we've worked with
+          all kinds of companies.
         </p>
         <p>
-          We've got experience with everything from corporate sites to
-          portfolios and even full-on online stores. We totally know how to get
-          it done right from the get-go.
+          We don’t just whip up pretty websites—we build smart ones that grab
+          your audience's attention and deliver results. Our creative designers
+          create something that's not only stylish but also really practical.
         </p>
         <p>
-          When you team up with us, you're not just getting designers—you’re
-          getting partners who really know how to make ideas happen.
+          After years of working on website development, we’ve really got the
+          hang of tackling challenges quickly and delivering great results.
+          We're here for you and will guide you through it all, so you won't
+          feel lost. We're around to chat, swap ideas, and lend a hand whenever
+          you need it.
+        </p>
+        <p>
+          won't feel lost. We're around to chat, swap ideas, and lend a hand
+          whenever you need it. That's why so many of our clients keep coming
+          back for new projects and spreading the word to their friends about
+          us.
         </p>
 
-        <h5> Customized Solutions for Your Business</h5>
+        <h5>Custom Solutions for Every Business</h5>
         <p>
-          Your business is one of a kind, and your website should totally
-          reflect that. We believe designs should be unique and customized to
-          suit personal preferences. We create custom websites that fit your
-          brand's style, what your audience wants, and your business goals.
+          Every business has its own vibe, and its website should definitely
+          show that off. We don't use old and pre-made templates, in fact we
+          believe in custom solutions for each business.
         </p>
         <p>
-          Looking for a fun and unique design? A website in multiple languages?
-          What about cool stuff like booking systems, product catalogs, or
-          custom forms? We get it done. We kick things off by really getting to
-          know your brand—what you offer, who your customers are, and what sets
-          you apart.
+          We create websites that match your brand’s style, vision, and goals.
+          We have everything set up with the design and features, just for your
+          business. So, what's the deal? A site that looks awesome and works
+          hard to bring in customers.
         </p>
 
         <p>
-          You get a website that looks awesome and helps you level up.It will
-          bring more users to your site, keep them interested, and make them
-          regular customers.
+          We make it easy with simple layouts, smooth navigation, and fast
+          loading times.
         </p>
 
         <p>
-          We can build a website for you that works for you today and can expand
-          with you later, whether you own a little store, a new business that's
-          doing well, or a major enterprise.
+          Your website is more than just a page; it’s like your online shop
+          front. We highlight the coolest aspects of your business.
         </p>
-        <h5> Mobile-Friendly, User-Centric Design</h5>
+        <h5>Affordable Packages Without Compromise</h5>
         <p>
-          More than half of people who surf the web these days do it on their
-          phones. That's why we build websites that look awesome and work
-          seamlessly on phones, tablets, and desktops.. A site that's easy to
-          use on mobile makes it super simple for your customers to have a great
-          experience, no matter where they are.
+          The cost of creating a website varies for every business. As a result,
+          we provide flexible deals that allow businesses to create their
+          desired websites within their budget. Are you just starting out or a
+          settled business? We have some great options that won't break the bank
+          for you.
         </p>
 
         <p>
-          We focus on making things quick and easy, so users can have a smooth
-          experience—whether they're just landing on your site, checking out
-          services, or making a purchase. A mobile-friendly website not only
-          makes users happier but also helps you get more conversions and climb
-          up the search rankings.
+          The cool thing is that you can get great products without spending a
+          lot of money. Our cheap packages include great styles, useful
+          features, and full customer service. We've got you covered to make
+          sure you get the best value for your money. We’re straight up about
+          our pricing, unlike many agencies out there.
         </p>
         <p>
-          We make everything super easy for users by cutting out the extra steps
-          and providing clear calls-to-action. If your browsing experience is
-          smooth and quick, people are way more likely to trust your brand and
-          do something about it. Your website will not only function but also
-          provide a smooth experience on any device.
+          No hidden charges, nothing surprising. Just pick up the packages that
+          have exactly what you’re looking for. We believe every business should
+          have a strong online presence, no matter their budget. That's why we
+          focus on making websites that are affordable, reliable, and super
+          effective. You’ll score great quality without emptying your wallet for
+          your business.
         </p>
-        <h5>SEO-Optimized Websites That Rank</h5>
+        <h5>Easy-to-Use and Mobile-Friendly Websites</h5>
 
         <p>
-          A website can look super cool, but if nobody can find it, what’s the
-          point? Whenever we set up a site, we totally keep SEO best practices
-          in mind. We take care of all the techy stuff for you, like sorting out
-          your URLs, titles, and meta tags, plus ensuring your site loads
-          quickly. This makes it super easy for search engines to find your
-          site.
+          These days, a lot of users are just scrolling the web on their phones.
+          That’s why we ensure your website looks awesome on any device—mobile,
+          tablet, or desktop. We keep our designs simple and easy to get around.
+          Everyone hates a website that's hard to navigate and takes forever to
+          load.
         </p>
         <p>
-          We keep SEO in mind when we design, helping your site move up the
-          Google ranks and making it a breeze for potential customers to find
-          you. We make sure your site’s setup is good for adding new stuff like
-          blogs, service updates, and landing pages. This sets you up nicely for
-          digital marketing campaigns and helps with steady organic growth over
-          time. A slow, clunky website can totally bring your brand down.We’re
-          all about making your site easy to use, quick to load, and great for
-          search engines. Your website isn’t just about being pretty—it’s all
-          about bringing in the right crowd.
+          We create websites that are quick, neat, SEO optimized,
+          mobile-friendly and super easy to navigate. We want to make sure your
+          visitors have a great time right from the second they hit your page.
+          Booking a service, shopping online, or just checking out your business
+          is all super easy and smooth. We throw in some cool features to make
+          your website fun and engaging. And we’re always thinking about what’s
+          next for growth. Your website isn’t just reliable right now—it’s ready
+          to roll with whatever updates and trends come along next. With us,
+          you’ll get a website that’s mobile-friendly, super easy to navigate,
+          and made to keep your visitors happy every time they stop by.
         </p>
-        <h5> Keeping the Support Going After Launch</h5>
+        <h5> Ongoing Support and Maintenance</h5>
         <p>
-          Getting your website up and running is just the beginning. Once we
-          launch, we just make a few small tweaks, updates, and check the
-          security to keep everything running nice and smooth.
-        </p>
-        <p>
-          We're here to help you out with fixing bugs, adding new features,
-          updating content, or just making some design tweaks. We're all about
-          keeping your site safe, speedy, and in the loop with the latest
-          trends. No worries about any downtime or tech problems—we're here for
-          you! Feel free to call, text, or shoot us an email.
+          Getting your website up and running is just the beginning. A website
+          that performs well needs some regular TLC to keep it safe, up-to-date,
+          and user-friendly. That's our jam.
         </p>
         <p>
-          We'll get back to you fast and break everything down in
-          easy-to-understand language. Keeping up with things has never been
-          simpler.
+          We’re not the kind to just drop off your website and disappear—we’re
+          in it for the long run. We take care of everything from fixing bugs
+          and updating plugins to adding fresh content and launching awesome
+          features, making sure your website stays in sync with your business.
         </p>
         <p>
-          When you team up with us, you’re not just getting a top-notch website
-          design company in Dubai—you’re gaining a reliable digital buddy who's
-          all about helping your business thrive online. We're all about your
-          success, and we'll stick by you through it all, making sure your
-          website looks awesome and gets you the results you want. Let’s build a
-          digital vibe that draws in customers, earns trust, and helps us grow.
+          We keep an eye on how things are doing. A sluggish or old-school
+          website can really drive customers away, but with our monitoring and
+          regular check-ins, your site stays fast, safe, and reliable. Our
+          support team replies quickly and is really easy to reach, so you won't
+          be left hanging for answers.
+        </p>
+        <p>
+          Think of us as your tech pals—always ready to help, support, and amp
+          up your online presence whenever you need it. While you focus on
+          growing, we’ve got the backend stuff covered. Your business is
+          supported by a trustworthy website development company in Qatar. Ready
+          for hassle-free website care? Let’s keep your digital journey smooth!
         </p>
 
         <div className="detail-foot">

@@ -92,6 +92,30 @@ export default function ArticleDetail({ params }) {
                     }}
                   />
                 )}
+                {article.content?.subParagraph?.[2] && (
+                  <p
+                    className="paratop1"
+                    dangerouslySetInnerHTML={{
+                      __html: article.content.subParagraph[2],
+                    }}
+                  />
+                )}
+                {article.content?.subParagraph?.[3] && (
+                  <p
+                    className="paratop1"
+                    dangerouslySetInnerHTML={{
+                      __html: article.content.subParagraph[3],
+                    }}
+                  />
+                )}
+                {article.content?.subParagraph?.[4] && (
+                  <p
+                    className="paratop1"
+                    dangerouslySetInnerHTML={{
+                      __html: article.content.subParagraph[4],
+                    }}
+                  />
+                )}
 
                 {/* Render smallHeading */}
                 {article.content?.smallHeading && (
@@ -156,7 +180,10 @@ export default function ArticleDetail({ params }) {
                   <h4 className="small-head3">{article.content.subHeading1}</h4>
                 )}
                 {article.content?.subParagraph1 && (
-                  <p className="paratop1">{article.content.subParagraph1}</p>
+                  <p className="paratop1">{article.content.subParagraph1[0]}</p>
+                )}
+                {article.content?.subParagraph1 && (
+                  <p className="paratop1">{article.content.subParagraph1[1]}</p>
                 )}
                 {/* Render smallHeading3 and bulletPoints3 */}
                 {article.content?.smallHeading3 && (
@@ -775,34 +802,17 @@ export default function ArticleDetail({ params }) {
                         <p className="paratop1">
                           {article.content.subParagraphNew1?.[2]}
                         </p>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew1?.[3]}
+                        </p>
                       </>
                     )}
 
-                    {/* FAQ */}
-
-                    {<h5 className="small-head3">{article.content.headFaq}</h5>}
-
-                    <div className="faq-blogN">
-                      {article.content.FaqData?.map((item, index) => (
-                        <div
-                          className={`faqr-item-new ${
-                            activeIndex === index ? "expanded" : ""
-                          }`}
-                          key={index}
-                        >
-                          <div className="faq-new-question">
-                            <h4 className="questionFaqNew">{item.question}</h4>
-                            <button
-                              className="toggle-btn"
-                              onClick={() => toggleAnswer(index)}
-                            >
-                              {activeIndex === index ? "-" : "+"}
-                            </button>
-                          </div>
-                          <p className="faqr-answer-new">{item.answer}</p>
-                        </div>
-                      ))}
-                    </div>
+                    {article.content?.borderbottomline && (
+                      <span className="borderbottomline">
+                        {article.content.borderbottomline}
+                      </span>
+                    )}
 
                     {/* Conclusion */}
 
@@ -833,6 +843,32 @@ export default function ArticleDetail({ params }) {
                         />
                       </>
                     )}
+
+                    {/* FAQ */}
+
+                    {<h5 className="small-head3">{article.content.headFaq}</h5>}
+
+                    <div className="faq-blogN">
+                      {article.content.FaqData?.map((item, index) => (
+                        <div
+                          className={`faqr-item-new ${
+                            activeIndex === index ? "expanded" : ""
+                          }`}
+                          key={index}
+                        >
+                          <div className="faq-new-question">
+                            <h4 className="questionFaqNew">{item.question}</h4>
+                            <button
+                              className="toggle-btn"
+                              onClick={() => toggleAnswer(index)}
+                            >
+                              {activeIndex === index ? "-" : "+"}
+                            </button>
+                          </div>
+                          <p className="faqr-answer-new">{item.answer}</p>
+                        </div>
+                      ))}
+                    </div>
 
                     {
                       <div className="bott-icon">
